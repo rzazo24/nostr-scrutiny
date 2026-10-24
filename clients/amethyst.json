@@ -1,0 +1,7 @@
+{
+  "name": "Amethyst",
+  "website": "https://amethyst.social",
+  "play": "com.vitorpamplona.amethyst",
+  "repo": "vitorpamplona/amethyst",
+  "note": "Android app; amethyst.social is its website, not a web client."
+}

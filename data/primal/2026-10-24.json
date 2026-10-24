@@ -1,0 +1,302 @@
+{
+  "client": "Primal",
+  "collected": "2026-10-24T22:39:57.999Z",
+  "config": {
+    "name": "Primal",
+    "website": "https://primal.net/home",
+    "appStore": "1673134518",
+    "play": "net.primal.android",
+    "repo": "PrimalHQ/primal-web-app",
+    "privacyPolicy": "https://primal.net/privacy"
+  },
+  "errors": {},
+  "appStore": {
+    "found": true,
+    "source": "https://apps.apple.com/us/app/primal/id1673134518?uo=4",
+    "name": "Primal",
+    "seller": "Primal Systems Incorporated.",
+    "developer": "Primal Systems Incorporated.",
+    "sellerUrl": "https://primal.net",
+    "version": "3.5.65",
+    "versionDate": "2026-10-20T15:51:40Z",
+    "firstRelease": "2023-12-01T08:00:00Z",
+    "rating": 4.88675,
+    "ratings": 936
+  },
+  "github": {
+    "found": true,
+    "source": "https://github.com/PrimalHQ/primal-web-app",
+    "license": "MIT",
+    "archived": false,
+    "created": "2023-01-27T17:39:25Z",
+    "lastPush": "2026-08-27T11:54:07Z",
+    "lastCommit": "2026-08-13T07:45:59Z",
+    "latestRelease": null,
+    "stars": 281
+  },
+  "nip89": [],
+  "play": {
+    "found": true,
+    "source": "https://play.google.com/store/apps/details?id=net.primal.android&hl=en&gl=us",
+    "name": "google_logo Play",
+    "developer": "PRIMAL SYSTEMS INC.",
+    "updated": "Oct 19, 2026",
+    "legalName": "Primal Systems Inc",
+    "email": "support@primal.net",
+    "address": "60 Vernon St\nToronto, ON M6P 1T1\nCanada",
+    "phone": null,
+    "privacyPolicy": null,
+    "dataSafety": {
+      "source": "https://play.google.com/store/apps/datasafety?id=net.primal.android&hl=en&gl=us",
+      "text": [
+        "google_logo Play",
+        "Games",
+        "Apps",
+        "Movies & TV",
+        "Books",
+        "Kids",
+        "search",
+        "help_outline",
+        "Primal",
+        "PRIMAL SYSTEMS INC.",
+        "privacy_tip",
+        "The developer has provided this information about how this app collects, shares, and handles your data",
+        "Data safety",
+        "Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more",
+        "No data shared with third parties",
+        "The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.",
+        "Data collected",
+        "Data this app may collect",
+        "Photos and videos",
+        "Photos and Videos",
+        "expand_more",
+        "Personal info",
+        "Name, Email address, and User IDs",
+        "expand_more",
+        "Security practices",
+        "Data is encrypted in transit",
+        "Your data is transferred over a secure connection",
+        "You can request that data be deleted",
+        "The developer provides a way for you to request that your data be deleted",
+        "info",
+        "For more information about collected and shared data, see the developer's privacy policy",
+        "Google Play"
+      ]
+    }
+  },
+  "web": {
+    "source": "https://primal.net/home",
+    "finalUrl": "https://primal.net/home",
+    "title": "Primal",
+    "thirdParty": [
+      {
+        "host": "blossom.ditto.pub",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "blossom.jumble.social",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "blossom.laantungir.net",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "blossom.mypathtofire.de",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "cdn.azzamo.media",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "cdn.nostr.build",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "cosanostr.com",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "dergigi.com",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "derkueken.blossom.band",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "einundzwanzig.space",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "elites.nostrati.org",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "files.sovbit.host",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "happytavern.co",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "i.nostr.build",
+        "requests": 7,
+        "thirdParty": true
+      },
+      {
+        "host": "image.nostr.build",
+        "requests": 17,
+        "thirdParty": true
+      },
+      {
+        "host": "inostr.com",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "ipfs.cahlen.org",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "layer1.studio",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "media.divine.video",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "media.poster.place",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "node.blossom.band",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "nostr4.social",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "nostrcheck.me",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "nostrplebs.com",
+        "requests": 4,
+        "thirdParty": true
+      },
+      {
+        "host": "npub129puxu7lrd2g5a7hnmr57fe9t5ffk62m2gklkkl5xjvt5j6srhuswhhud3.blossom.band",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "npub15dccx7yuxu6gs5ak4elylwxzgxucxy6qdm3ztlfmluwfr7n2u9hq4ug5zv.blossom.band",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "npub1uwjejfyn8j0e7t0cx3ys2h4nsk83fq8a6rz7mw2a7z97mnfwvcjqcvaxfl.blossom.band",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "npub1zhq8dsvd0nnjadtsz2jshezs4e6zrukw36x5aj5h6alwcuzv6f3s3fd2ke.blossom.band",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "pbs.twimg.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "primal.b-cdn.net",
+        "requests": 3,
+        "thirdParty": true
+      },
+      {
+        "host": "primaldata.s3.us-east-005.backblazeb2.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "profilepics.nostur.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "turdsoup.com",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "vcavallo.nyc3.cdn.digitaloceanspaces.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "video.nostr.build",
+        "requests": 2,
+        "thirdParty": true
+      }
+    ],
+    "websockets": [
+      {
+        "host": "cache2.primal.net",
+        "thirdParty": false
+      }
+    ],
+    "firstPartyHosts": [
+      "blossom.primal.net",
+      "m.primal.net",
+      "primal.net",
+      "r2.primal.net",
+      "r2a.primal.net"
+    ],
+    "cookies": [],
+    "localStorageKeys": [
+      "animated",
+      "loginType",
+      "theme"
+    ],
+    "headers": {
+      "content-security-policy": null,
+      "strict-transport-security": null,
+      "referrer-policy": null,
+      "permissions-policy": null,
+      "x-frame-options": null
+    }
+  },
+  "policy": {
+    "source": "https://primal.net/privacy",
+    "status": 200,
+    "stated": "FEBRUARY 21, 2024",
+    "chars": 5857,
+    "text": "(see 2026-10-24-privacy.txt)"
+  }
+}

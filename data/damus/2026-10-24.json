@@ -1,0 +1,75 @@
+{
+  "client": "Damus",
+  "collected": "2026-10-24T22:39:39.986Z",
+  "config": {
+    "name": "Damus",
+    "website": "https://damus.io",
+    "appStore": "1628663131",
+    "repo": "damus-io/damus",
+    "privacyPolicy": "https://damus.io/privacy-policy.txt",
+    "note": "iPhone/iPad/Mac app; damus.io is its website, not a web client."
+  },
+  "errors": {},
+  "appStore": {
+    "found": true,
+    "source": "https://apps.apple.com/us/app/damus/id1628663131?uo=4",
+    "name": "Damus",
+    "seller": "Damus Nostr, Inc",
+    "developer": "Damus Nostr, Inc",
+    "sellerUrl": "https://damus.io",
+    "version": "1.17",
+    "versionDate": "2026-06-03T17:12:15Z",
+    "firstRelease": "2023-01-31T08:00:00Z",
+    "rating": 4.75483,
+    "ratings": 673
+  },
+  "github": {
+    "found": true,
+    "source": "https://github.com/damus-io/damus",
+    "license": "GPL-3.0",
+    "archived": false,
+    "created": "2022-04-03T00:00:20Z",
+    "lastPush": "2026-09-11T17:11:07Z",
+    "lastCommit": "2026-09-09T20:40:43Z",
+    "latestRelease": null,
+    "stars": 2148
+  },
+  "nip89": [],
+  "web": {
+    "source": "https://damus.io",
+    "finalUrl": "https://damus.io/",
+    "title": "Damus",
+    "thirdParty": [
+      {
+        "host": "static.cloudflareinsights.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "tally.so",
+        "requests": 1,
+        "thirdParty": true
+      }
+    ],
+    "websockets": [],
+    "firstPartyHosts": [
+      "damus.io"
+    ],
+    "cookies": [],
+    "localStorageKeys": [],
+    "headers": {
+      "content-security-policy": null,
+      "strict-transport-security": null,
+      "referrer-policy": null,
+      "permissions-policy": null,
+      "x-frame-options": null
+    }
+  },
+  "policy": {
+    "source": "https://damus.io/privacy-policy.txt",
+    "status": 200,
+    "stated": null,
+    "chars": 157,
+    "text": "(see 2026-10-24-privacy.txt)"
+  }
+}
