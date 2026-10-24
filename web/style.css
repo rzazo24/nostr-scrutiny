@@ -1,0 +1,21 @@
+:root { --bg:#0b0f16; --panel:#111823; --border:#1f2a3a; --text:#e6edf3; --muted:#93a1b1; --accent:#2dd4bf; color-scheme: dark }
+@media (prefers-color-scheme: light) { :root { --bg:#f5f7f9; --panel:#ffffff; --border:#d4dce5; --text:#17212b; --muted:#566473; --accent:#0b7a6d; color-scheme: light } }
+* { box-sizing: border-box }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif }
+header, main, footer { max-width: 760px; margin: 0 auto; padding: 0 16px }
+header { padding-top: 18px; padding-bottom: 12px; border-bottom: 1px solid var(--border) }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-weight: 700; font-size: 1.1rem }
+main { padding-top: 8px; padding-bottom: 32px }
+h1 { font-size: 1.7rem; line-height: 1.25; margin: 22px 0 10px }
+h2 { font-size: 1.15rem; margin: 30px 0 8px; color: var(--accent) }
+.lead { font-size: 1.1rem }
+a { color: var(--accent); overflow-wrap: anywhere }
+code { font-size: .9em; background: var(--panel); border: 1px solid var(--border); border-radius: 5px; padding: 1px 5px; overflow-wrap: anywhere }
+ul { padding-left: 22px } li { margin: 6px 0 }
+article em:first-of-type { color: var(--muted) }
+.clients { list-style: none; padding: 0; display: grid; gap: 10px }
+.clients a { display: grid; gap: 2px; padding: 14px 16px; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; color: var(--text); text-decoration: none }
+.clients a:hover { border-color: var(--accent) }
+.clients span { color: var(--muted); font-size: .95rem } .clients small { color: var(--muted); font-size: .8rem }
+.back { margin-top: 28px }
+footer { color: var(--muted); font-size: .85rem; border-top: 1px solid var(--border); padding-top: 12px; padding-bottom: 28px }

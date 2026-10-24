@@ -1,0 +1,16 @@
+# Caddy site block for Nostr Scrutiny (static files). scripts/deploy.sh fills in the domain.
+__DOMAIN__ {
+	root * /srv/sites/scrutiny
+	encode gzip
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy no-referrer
+		Strict-Transport-Security "max-age=31536000"
+		Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+		# plain pages: its own stylesheet and icon, nothing else from anywhere
+		Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+		Cache-Control "no-cache"
+	}
+	try_files {path} {path}.html
+	file_server
+}
