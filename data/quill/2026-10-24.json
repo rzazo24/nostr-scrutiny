@@ -1,11 +1,12 @@
 {
   "client": "Quill",
-  "collected": "2026-10-24T22:18:31.146Z",
+  "collected": "2026-10-24T23:31:20.740Z",
   "config": {
     "name": "Quill",
     "website": "https://quill.hivescope.xyz",
     "repo": "rzazo24/quill",
-    "note": "Web app (installable PWA); no App Store or Google Play listing."
+    "note": "Web app (installable PWA); no App Store or Google Play listing.",
+    "privacyPolicy": "https://quill.hivescope.xyz/privacy.html"
   },
   "errors": {},
   "github": {
@@ -14,8 +15,8 @@
     "license": "MIT",
     "archived": false,
     "created": "2026-10-09T08:43:04Z",
-    "lastPush": "2026-10-24T12:48:03Z",
-    "lastCommit": "2026-10-24T12:45:35Z",
+    "lastPush": "2026-10-24T23:31:11Z",
+    "lastCommit": "2026-10-24T23:29:00Z",
     "latestRelease": null,
     "stars": 1
   },
@@ -43,10 +44,6 @@
         "thirdParty": true
       },
       {
-        "host": "relay.damus.io",
-        "thirdParty": true
-      },
-      {
         "host": "relay.hivescope.xyz",
         "thirdParty": false
       },
@@ -67,5 +64,12 @@
       "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
       "x-frame-options": null
     }
+  },
+  "policy": {
+    "source": "https://quill.hivescope.xyz/privacy.html",
+    "status": 200,
+    "stated": "2026-10-24",
+    "chars": 3051,
+    "text": "(see 2026-10-24-privacy.txt)"
   }
 }

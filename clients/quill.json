@@ -2,5 +2,6 @@
   "name": "Quill",
   "website": "https://quill.hivescope.xyz",
   "repo": "rzazo24/quill",
-  "note": "Web app (installable PWA); no App Store or Google Play listing."
+  "note": "Web app (installable PWA); no App Store or Google Play listing.",
+  "privacyPolicy": "https://quill.hivescope.xyz/privacy.html"
 }

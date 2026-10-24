@@ -8,7 +8,7 @@
 ## Who is behind it
 
 - Published by an individual, not a company: the GitHub account **rzazo24**, who also runs the relay `relay.hivescope.xyz`. [Repository](https://github.com/rzazo24/quill)
-- There is no company, terms of service or privacy policy document.
+- There is no company and no terms of service. A privacy policy was published on 2026-10-24, after the first version of this sheet pointed out it had none; it gives the author's npub as the contact. [Privacy policy](https://quill.hivescope.xyz/privacy.html)
 - No NIP-89 app announcement (kind 31990) was found for Quill on four large relays.
 
 ## Your keys
@@ -21,6 +21,10 @@
 
 - Open source, **MIT** licence. Last commit: 2026-10-24.
 - No tagged releases. The site is deployed by its author from that repository; from the outside there is no way to prove that what the server sends is exactly a given commit.
+
+## Privacy: what the policy says
+
+The policy (dated 2026-10-24) says, among other things, that Quill never sees the private key; settings, drafts, saved notes and wallet connections stay in the browser; the web server keeps no access log; the picture proxy keeps small copies for 7 days and logs only the site of a picture that fails; the Pick of the day is made by Claude from public notes without data about the reader; and Quill sets no cookies and uses no analytics. It also says that relay.hivescope.xyz, one of the default relays, is run by the same person.
 
 ## Privacy: what the web app does
 
@@ -47,4 +51,5 @@ From its source code and server configuration (not visible to a visitor):
 
 - Repository: https://github.com/rzazo24/quill
 - Web app: https://quill.hivescope.xyz
+- Privacy policy: https://quill.hivescope.xyz/privacy.html (copy of 2026-10-24 in `data/quill/`)
 - Collected data: `data/quill/2026-10-24.json` in the Nostr Scrutiny repository
