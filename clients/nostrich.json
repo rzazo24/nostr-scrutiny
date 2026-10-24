@@ -1,0 +1,7 @@
+{
+  "name": "Nostrich",
+  "website": "https://nostrich.org",
+  "play": "org.nostrich.app",
+  "repo": "nostrichOS/nostrich-client",
+  "privacyPolicy": "https://nostrich.org/privacy"
+}

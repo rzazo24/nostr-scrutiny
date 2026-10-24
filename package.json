@@ -1,0 +1,15 @@
+{
+  "name": "nostr-scrutiny",
+  "private": true,
+  "type": "module",
+  "description": "Fact sheets about Nostr clients: who is behind them, what they do with your keys, their code and their privacy. Facts and sources only.",
+  "scripts": {
+    "collect": "node src/collect.mjs",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "nostr-tools": "2.17.0",
+    "playwright": "1.63.0",
+    "ws": "8.18.3"
+  }
+}
