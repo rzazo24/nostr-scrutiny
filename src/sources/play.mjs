@@ -2,8 +2,8 @@
 // Only facts as the store shows them: who the developer is, their contact details, and what the developer declares about data.
 // "About the developer" (hidden behind a toggle, so read from the HTML): the legal name, email, postal address and phone the store shows.
 // Kept in the collected data as published; a fact sheet names the entity and the city, never a street or a phone number.
-function aboutDeveloper(html) {
-  const block = html.split('About the developer</div>')[1]?.split('</div></div>')[0] ?? ''
+export function aboutDeveloper(html) {
+  const block = (html.split('About the developer</div>')[1]?.split('</div></div>')[0] ?? '') + '</div>' // the split eats the last entry's closing tag
   const parts = [...block.matchAll(/<div[^>]*>([^<]+)<\/div>/g)].map((m) => m[1].replace(/\\n/g, '\n').trim()).filter(Boolean)
   return {
     legalName: parts[0] ?? null,

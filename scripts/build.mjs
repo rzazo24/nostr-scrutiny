@@ -8,8 +8,10 @@ rmSync(out, { recursive: true, force: true }); mkdirSync(out, { recursive: true 
 copyFileSync(new URL('../web/style.css', import.meta.url), new URL('style.css', out))
 copyFileSync(new URL('../web/icon.svg', import.meta.url), new URL('icon.svg', out))
 
+// every link to another site opens without telling it where the reader came from (the server's Referrer-Policy says the same)
+const withRel = (html) => html.replace(/<a href="http/g, '<a rel="noopener noreferrer" href="http')
 const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c])
-const page = (title, body, description) => `<!doctype html>
+const page = (title, body, description) => withRel(`<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}">
 <link rel="icon" href="/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"></head>
@@ -18,7 +20,7 @@ const page = (title, body, description) => `<!doctype html>
 <footer><p>Facts and sources only: no scores, no verdicts. Every claim links to where it comes from; what could not be checked is said so.</p>
 <p>Inspired by <a href="https://walletscrutiny.com">WalletScrutiny</a>. Method, collectors and collected data: <a href="https://github.com/rzazo24/nostr-scrutiny">source code</a>.</p></footer>
 </body></html>
-`
+`)
 
 const sheets = readdirSync(new URL('../sheets/', import.meta.url)).filter((f) => f.endsWith('.md')).sort()
 const rows = []
@@ -28,7 +30,7 @@ for (const f of sheets) {
   const name = md.match(/^# (.+?) — /m)?.[1] ?? id
   const checked = md.match(/Checked on (\d{4}-\d{2}-\d{2})/)?.[1] ?? ''
   const what = (md.match(/^\*\*What it is:\*\* (.+)$/m)?.[1] ?? '').replace(/\[([^\]]+)\]\([^)]+\)/g, '').replace(/\s+\.?\s*$/, '').trim()
-  const html = marked.parse(md).replace(/<a href="http/g, '<a rel="noopener noreferrer" href="http')
+  const html = marked.parse(md)
   writeFileSync(new URL(`${id}.html`, out), page(`${name} — Nostr Scrutiny`, `<article>${html}</article><p class="back"><a href="/">← All clients</a></p>`, `Fact sheet about the Nostr client ${name}: who is behind it, keys, code and privacy.`))
   rows.push({ id, name, checked, what: what.charAt(0).toUpperCase() + what.slice(1) })
 }

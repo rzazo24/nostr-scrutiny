@@ -5,7 +5,7 @@
   "description": "Fact sheets about Nostr clients: who is behind them, what they do with your keys, their code and their privacy. Facts and sources only.",
   "scripts": {
     "collect": "node src/collect.mjs",
-    "test": "node --test test/",
+    "test": "node --test",
     "build": "node scripts/build.mjs"
   },
   "dependencies": {
