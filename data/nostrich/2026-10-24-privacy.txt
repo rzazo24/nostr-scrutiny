@@ -1,0 +1,571 @@
+Skip to content
+Home
+Explore
+Notifications
+Chat
+Wallet
+Spaces
+history
+History
+Profile
+pending
+More
+Sign In
+Privacy Policy
+
+Last updated: October 23, 2026
+
+Nostrich is built around a simple principle: collect as little information about you as possible.
+
+Nostrich does not require a traditional account. We do not ask for your email address, phone number or password to use the Nostr network. Your Nostr identity is based on cryptographic keys that you control.
+
+This Privacy Policy explains what information Nostrich receives, what we do with it, what we do not do with it, and what happens when you interact with the wider Nostr network.
+
+1. Scope
+
+This Privacy Policy applies to Nostrich applications, websites and related services, including the Nostrich web app, the iPhone, iPad and Android apps, the Nostrich Deck app for Mac, and other Nostrich applications that link to this policy.
+
+In this policy, “Nostrich,” “we,” “us,” and “our” refer to RHXO, Inc., a Delaware corporation, which operates Nostrich.
+
+Nostr itself is an open protocol made up of independently operated relays, media servers, Lightning services and applications. Nostrich does not control the Nostr network or the independent services connected to it.
+
+2. The short version
+
+You do not need to create an account with us to use Nostrich.
+
+Nostrich offers paid promotional campaigns that reward users for completing eligible advertising tasks. We do not use third-party advertising trackers, sell personal information, or build behavioral advertising profiles.
+
+We do not build profiles of what you read.
+
+Your private key remains under your control.
+
+Your public Nostr activity is public by design and may be distributed across independent relays outside our control.
+
+Some optional Nostrich features require limited server-side information, such as push notification registrations and campaign payout records. Those are described below.
+
+3. Your Nostr identity and private keys
+
+A Nostr identity consists of a public key and a corresponding private key.
+
+Your public key identifies you on the Nostr network and is meant to be shared publicly.
+
+Your private key is different. It allows you to sign activity as your identity and should remain secret.
+
+On iPhone and iPad, private keys stored by Nostrich are protected using the iOS Keychain. On Android, they are protected using the Android Keystore. On the web, keys and related credentials are stored locally in your browser.
+
+Nostrich does not transmit your private key to our servers.
+
+You may also use a compatible remote signer. In that configuration, signing takes place through the remote signing system and Nostrich does not receive the private key itself.
+
+Because Nostrich does not control or maintain a copy of your private key, we cannot recover it for you. A Nostr private key is not a password that can be reset.
+
+You are responsible for keeping appropriate backups of any keys you want to preserve.
+
+4. Public activity on Nostr
+
+Nostr is a public network.
+
+Information you publish may include:
+
+notes and long-form posts;
+your profile information;
+follows;
+reactions;
+reposts and quotes;
+public bookmarks or lists;
+zap activity;
+hashtags;
+relay information; and
+other events you choose to publish.
+
+Nostrich sends this information to the Nostr relays you use.
+
+Relays are independent servers operated by third parties. Nostrich does not control how those relays store, replicate or retain information.
+
+Information published to Nostr may also be copied, cached, indexed, archived or redistributed by other relays, applications, websites or users.
+
+Deleting something in Nostrich does not guarantee its removal from the Nostr network. A Nostr deletion event is effectively a request to other systems. Independent relays and applications decide how they respond to it.
+
+Do not publish information to Nostr that you need to remain private.
+
+5. Direct messages
+
+Supported direct messages are encrypted between participants before being transmitted through the Nostr network.
+
+Nostrich does not operate a central inbox containing plaintext copies of your private conversations.
+
+Encrypted messages may pass through or be stored by Nostr relays, but those relays receive encrypted data rather than the readable message content.
+
+Encryption hides what a message says. It does not hide everything about it: a relay can still see technical details such as the recipient's public key, the time and the size of a message.
+
+Your ability to decrypt a message depends on the cryptographic keys associated with your Nostr identity.
+
+Push notifications for messages
+
+If you enable push notifications, Nostrich may process enough information to determine that an event requiring a notification has occurred.
+
+For encrypted direct messages, our notification system is designed so that the push alert does not need to contain the message text or identify the sender.
+
+Push delivery relies on Apple Push Notification service on Apple devices and Firebase Cloud Messaging on Android, and is subject to Apple's and Google's own privacy practices.
+
+6. Photos, video and other media
+
+Nostrich does not operate a central library containing all media posted through the app.
+
+When you upload media, it may be sent from your device to an independent media or storage service selected or configured for use with Nostrich.
+
+Those services are separate from Nostrich and may have their own privacy policies, logging practices and retention rules.
+
+Where supported, media may be referenced using cryptographic content hashes.
+
+Media optimization
+
+To improve loading performance and reduce bandwidth, Nostrich may route public images through an image optimization service operated for Nostrich.
+
+That service may temporarily process the requested image in order to resize or optimize it for delivery.
+
+It is not intended to serve as permanent storage for the original media.
+
+Optimized copies may be cached for up to a year so they load quickly. Images served this way are checked against lists of known child sexual abuse material.
+
+The original file remains with the media provider chosen by the person who published it.
+
+As with other internet services, technical requests to this infrastructure may generate limited server logs for security, reliability and abuse prevention.
+
+7. Information Nostrich may store
+
+Most Nostr activity does not require Nostrich to maintain a traditional user database.
+
+Some features, however, require limited server-side information.
+
+Push notifications
+
+If you enable push notifications, we may store:
+
+the device notification token issued for push delivery;
+the Nostr public key associated with the notifications you requested;
+notification preferences; and
+limited technical information required to operate push delivery.
+
+A push token identifies an application installation or device endpoint for notification delivery. It is not an email address, phone number or traditional Nostrich account.
+
+To keep accounts you muted out of your push notifications, we store a one-way hash of each muted public key, not the key itself.
+
+If you disable push notifications through Nostrich, we can remove the corresponding registration from our notification system. Invalid or expired tokens may also be removed when they are no longer usable.
+
+Trending and discovery
+
+Nostrich may process and temporarily cache public Nostr events and profile information in order to create features such as:
+
+Trending;
+discovery feeds;
+hashtags;
+leaderboards;
+network statistics; and
+other public network views.
+
+These systems analyze information that has already been published publicly to Nostr.
+
+Trending and discovery snapshots may be rebuilt periodically as network activity changes.
+
+We do not use these systems to build advertising profiles about individual readers.
+
+Campaigns and rewards
+
+If you create or participate in a Nostrich campaign, we may maintain records necessary to provide our promotional services, verify completed advertising tasks, compensate eligible participants, process cancellations and refunds, prevent abuse, and meet accounting and legal obligations.
+
+These records may include:
+
+advertiser and participant public keys;
+campaign purchases, promotional budgets, service fees, and remaining balances;
+completed advertising tasks and associated public Nostr actions;
+task verification and reward eligibility;
+participant compensation amounts and payment status;
+Lightning payment identifiers and destinations; and
+campaign cancellations, refunds, and related transaction records.
+
+We use these records to deliver promotional services, verify completed advertising tasks, prevent duplicate claims and fraud, compensate eligible participants, process refunds, reconcile transactions, and maintain records for accounting and legal compliance.
+
+Each campaign pays one full reward per person. To tell several accounts on one device apart from different people, the Nostrich app sends a random code for your device with each campaign request. We store only a scrambled version of it with each claim, never the code itself, and use it for nothing else. It is deleted 30 days after the campaign ends, or when you delete your account.
+
+Zap campaigns
+
+A zap campaign lets an advertiser send zaps with a message to people who posted recently. To build its lists, we keep a short-lived index of public notes from about the last week, and public facts about the people who wrote them: the Lightning address on their profile, whether their wallet accepts zaps, and an Activity score calculated from public Nostr data. Notes leave this index after about a week.
+
+If you run a zap campaign, we store it: your public key, the list you chose, your message, the zap requests you signed, each payment and its status, and the Lightning address a refund was sent to.
+
+If a zap campaign zaps you, we keep a record of that zap, which is also how we limit how many campaign zaps one person receives in a day. The zap itself is public on Nostr, like any zap.
+
+If you turn on “Don’t include me in zap campaigns” in Settings, we store your public key and the date so that no zap campaign can zap you. We keep that record even if you delete your other data, because removing it would put you back on those lists.
+
+Marketplace
+
+The Marketplace is built from listings that sellers publish publicly to Nostr. To show, search and sort them, we keep an index of those public listings, the public profiles of their sellers and public reviews. Listings are described and sorted with the help of Large Language Models (LLMs), and we calculate an Activity score for sellers from public Nostr data.
+
+Orders, messages between buyer and seller, and delivery addresses are encrypted on your device and sent over Nostr relays. They do not reach our servers and we cannot read them. Items and addresses you save are stored on Nostr relays, encrypted to your own key.
+
+Payments for orders go directly from buyer to seller and do not pass through our servers. When you pay from another wallet, our server may ask the seller's payment provider whether the invoice was paid. A Bitcoin address that a seller puts on a listing is public.
+
+If a seller pays for a Sponsored listing, we store that purchase: the seller's public key, the listing, the payment request and whether it was paid.
+
+The Marketplace's map is drawn in your browser from map data served by OpenFreeMap (tiles.openfreemap.org), which is built from OpenMapTiles and OpenStreetMap data. Your device downloads the map directly from OpenFreeMap, not through our servers, so OpenFreeMap receives your IP address, which map tiles you load (the area you look at and how far you are zoomed in), and that the request came from nostrich.org. It does not receive your Nostr key, your profile, or what you search or filter for. The map does not ask for or use your device's location.
+
+To place sellers on the map, our server looks up the location a seller wrote publicly on their listings, using OpenStreetMap.
+
+Built-in wallet
+
+The built-in wallet operates on your device and is powered by Spark and Breez. Your funds and recovery phrase are never sent to or stored on our servers. An encrypted backup of your recovery phrase, which only your Nostr key can open, is stored on Nostr relays so you can open the same wallet on another device. When you turn the wallet on, you receive a name@nostrich.org address, and we store the name, your public key, and the wallet address used to receive payments. If you buy or gift a custom name, we also store that purchase. When someone pays your address, the payment request passes through our server so we can tell you when the payment arrives. The money does not. If payment notifications are enabled, we temporarily store the payment amount, payment reference, and comment until the notification is sent. If you use the wallet's Bitcoin address, we store that address and check public blockchain services so we can notify you when a deposit confirms.
+
+Scheduled posts
+
+If you schedule a post, our server keeps the signed post, the relays it should go to and the time you picked, until it is published or you cancel it. A post that could not be published is kept for up to 30 days so you can see that it failed.
+
+Translation and summaries
+
+If you ask Nostrich to translate a note or summarize an article, the text is processed by Large Language Models (LLMs) to produce the result. We do not store the text or the result on our servers.
+
+Custom @nostrich.org names are checked by an LLM before registration, and we keep the outcome of that check.
+
+We also use LLMs to describe and sort public content, such as custom emoji, and to write our bot's replies to public notes that mention it.
+
+Live audio
+
+Spaces hosted on Nostrich pass through an audio relay we operate. It carries the live audio and does not record or store it. We keep anonymous quality counts that identify no listener or room. If you set a reminder for a Space, we keep it until it is sent.
+
+App diagnostics
+
+The iPhone and iPad apps send occasional performance diagnostics, such as app version, iOS version and device model, with no public key, push token or device identifier.
+
+Support requests
+
+If you write to us, we receive your email address and whatever you include in your message. We keep that correspondence for as long as we need it to help you and to keep a record of the request.
+
+If you send us a message with the form in the Help Center, we store your message, the email address if you give one, and, for a report, the note or profile it is about. We do not store your public key with it. The message is also emailed to us at support@nostrich.org. Messages are deleted after 180 days.
+
+Server logs
+
+Like most internet services, servers supporting nostrich.org and related infrastructure may create technical logs when they receive a request.
+
+These logs may include information such as:
+
+IP address;
+request time;
+requested endpoint;
+browser or application information;
+response status; and
+security-related information.
+
+We use this information to operate the service, diagnose problems, protect our infrastructure and prevent abuse.
+
+We do not use server logs to build advertising profiles of our users.
+
+Logs are retained only for as long as reasonably necessary for operational, security and legal purposes.
+
+8. Web storage
+
+The Nostrich web application may use browser storage to keep information locally on your device, such as:
+
+application settings;
+interface preferences;
+local account configuration;
+relay selections;
+locally stored credentials; and
+other information necessary for the application to work.
+
+Local browser storage is not the same as sending that information to Nostrich servers.
+
+We also set a few first-party cookies needed for the site to work, such as your language and relay choices.
+
+Anything kept on your device can be seen by someone who can use that device or browser. On a shared device, sign out and clear the site's data when you are done.
+
+Nostrich does not use cross-site advertising cookies or tracking pixels to follow you around the web.
+
+9. Zaps and Lightning
+
+Nostrich does not take custody of funds simply because you send or receive a zap.
+
+Zaps are made through Lightning wallets and services selected by you or the recipient.
+
+When you connect a compatible Lightning wallet, authentication information for that connection is kept locally where supported and is used to communicate with the wallet service you authorized.
+
+Wallet providers, Lightning nodes and payment services are independent services and may process information according to their own privacy policies.
+
+Campaign payments operated by Nostrich are addressed separately in the Campaigns section above.
+
+10. How we use information
+
+When Nostrich does receive or store information, we use it only as reasonably necessary to:
+
+provide requested features;
+deliver notifications;
+generate public network discovery features;
+administer campaigns and rewards;
+maintain the reliability and security of our infrastructure;
+prevent spam, fraud and abuse;
+troubleshoot technical problems;
+respond to support requests; and
+comply with applicable legal obligations.
+
+We do not build behavioral advertising profiles or use private user information for advertising targeting. Campaign targeting may use publicly available Nostr activity.
+
+11. What we do not do
+
+Nostrich does not sell your personal information.
+
+We do not rent your personal information.
+
+We do not share your personal information for cross-context behavioral advertising. Because we do neither, a Global Privacy Control signal from your browser has nothing to switch off.
+
+We provide paid promotional services, including campaigns that use publicly available Nostr activity for targeting. We do not operate a third-party advertising network, sell personal information, or use private user data for behavioral advertising.
+
+We do not use advertising identifiers to follow you across other companies' apps or websites.
+
+We do not use third-party advertising pixels to track what you read.
+
+We do not require an email address or phone number to use your Nostr identity.
+
+We do not hold a server-side copy of your private Nostr key as an account-recovery mechanism.
+
+We do not custody the funds in the Lightning wallet you connect for ordinary zaps.
+
+12. Sharing information
+
+Because Nostr is a public protocol, information you intentionally publish to Nostr is shared with the relays you choose and may subsequently be distributed throughout the network.
+
+For information that Nostrich itself controls, we do not sell it to third parties.
+
+We may allow infrastructure providers to process limited information on our behalf when necessary to operate Nostrich, such as hosting, networking, content delivery, push-notification infrastructure and Large Language Model (LLM) providers.
+
+We may also disclose information we actually possess when reasonably required to:
+
+comply with applicable law, legal process, subpoena or court order;
+respond to a valid request from a competent authority;
+investigate fraud, abuse or security incidents;
+protect the rights and security of Nostrich or its users; or
+establish, exercise or defend legal claims.
+
+We cannot disclose information we do not have. In particular, we cannot provide a private key that never reached our systems or decrypt content for which we do not possess the necessary keys.
+
+If ownership or operation of Nostrich changes, information under our control may be transferred as part of that transaction, subject to applicable law and this policy or a replacement policy disclosed to users.
+
+13. Third-party services and the open Nostr network
+
+Nostrich connects you to services operated by other people and organizations.
+
+These may include:
+
+Nostr relays;
+Blossom or other media servers;
+Lightning wallets and payment infrastructure;
+remote signing services;
+live audio infrastructure;
+live streaming providers;
+GIF search providers, which receive the words you search for;
+public blockchain services;
+websites linked from Nostr posts; and
+other Nostr applications.
+
+Using Nostrich does not make those services part of Nostrich.
+
+When your device communicates with a third-party service, that service may receive information such as your IP address, request data or public Nostr activity.
+
+Their privacy practices are governed by their own policies, not this one.
+
+14. Security
+
+We design Nostrich to minimize the amount of sensitive information our servers need in the first place.
+
+We use reasonable technical and organizational safeguards to protect information under our control.
+
+However, no application, device, network or internet service can guarantee absolute security.
+
+Your private key controls your Nostr identity. Anyone who obtains it may be able to act as you on the Nostr network.
+
+Protect it accordingly.
+
+15. Your choices and rights
+
+You can use many parts of Nostrich without signing in.
+
+You control which Nostr identity you use.
+
+You can choose which relays you read from and publish to.
+
+You can choose supported media servers.
+
+You can enable or disable push notifications.
+
+You can mute accounts, words or other content supported by Nostrich's filtering tools.
+
+You can stop using Nostrich and use the same Nostr identity with another compatible client.
+
+For information stored directly by Nostrich, you may contact us to request access, correction or deletion where applicable.
+
+We may need to verify that a request is actually coming from the person controlling the relevant Nostr public key, including by requesting a cryptographic signature.
+
+Some information may need to be retained when required for security, fraud prevention, financial reconciliation or legal compliance.
+
+Nostrich cannot erase public information from independent Nostr relays or services that we do not control.
+
+Depending on where you live, applicable privacy law may provide additional rights regarding information we control.
+
+16. Children
+
+Nostrich is intended for adults. You must be 18 or older to use it.
+
+Nostrich provides access to content published on an open, global network that we do not control.
+
+Nostrich is not directed to children, and we do not knowingly collect personal information from children through a traditional account-registration system.
+
+Users should comply with the age requirements that apply to them under local law and the platform through which they obtained the application.
+
+If you believe a child has provided personal information directly to Nostrich in a way covered by applicable law, contact us at support@nostrich.org.
+
+17. International use
+
+Nostr is a global network.
+
+Relays, media servers, Lightning services and other infrastructure you choose to interact with may be located anywhere in the world.
+
+Information you publish publicly to Nostr may therefore be transmitted to, copied to or stored in countries other than the country where you live.
+
+Nostrich-operated infrastructure may also process limited technical information across jurisdictions where our service providers operate.
+
+18. Users in the European Union and the United Kingdom
+
+This section applies if you live in the European Economic Area or the United Kingdom.
+
+RHXO, Inc. is the controller of the information described in this policy that our servers hold. Information you publish to Nostr is controlled by you and by the independent relays and services that carry it.
+
+We use information on these legal grounds:
+
+to provide the features you ask for, such as push notifications, scheduled posts, name@nostrich.org addresses, campaigns and wallet notifications;
+our legitimate interests in running a secure and reliable service, preventing spam, fraud and abuse, and building public discovery features from information that is already public on Nostr;
+to comply with legal obligations, such as keeping payment records and answering lawful requests; and
+your consent where the law requires it, such as your device's permission for push notifications, which you can withdraw at any time.
+
+We keep information only for as long as we need it for the purpose it was collected for. Push registrations are kept until you turn notifications off or delete your data. Scheduled posts are kept until they are published or cancelled. Payment notices are kept until the notification is sent. Trending and discovery snapshots are replaced when they are rebuilt. Campaign and purchase records are kept for as long as needed for accounting, fraud prevention and legal obligations. Server logs are kept for a limited period for security and reliability.
+
+You have the right to ask for access to the information we hold about you, to have it corrected or deleted, to restrict or object to our use of it, and to receive a copy of it in a portable format. You can delete what our servers hold about your key at any time on the Delete account page. To use any of these rights, write to support@nostrich.org. We may ask you to sign a message with your key to confirm that the request is yours.
+
+You also have the right to complain to the data protection authority where you live, or in the United Kingdom to the Information Commissioner's Office.
+
+We use automated checks, for example to filter spam, to check names and to decide whether a campaign claim qualifies. If one of them affects you and you think it is wrong, write to us at support@nostrich.org.
+
+Nostrich is operated from the United States. Information we hold may be processed in the United States and in other countries where our service providers operate, including in the European Union. Where the law requires it, we rely on appropriate safeguards for these transfers, such as the standard contractual clauses our providers offer.
+
+19. Changes to this policy
+
+We may update this Privacy Policy as Nostrich evolves.
+
+When we make changes, we will update the date at the top of this page.
+
+If a change materially affects how information under our control is collected, used or shared, we may also provide additional notice through Nostrich or our website where appropriate.
+
+The current version of this policy will always be available on this page.
+
+20. Contact
+
+Questions or requests concerning privacy can be sent to:
+
+Email: support@nostrich.org
+Nostr: @nostrich
+
+This policy is originally published in English. Translations may be provided for convenience, but the English version is the official version and controls if there is any inconsistency.
+
+Search
+Live Spaces
+All
+videocam
+Noderunners Radio Jukebox
+videocam
+Noderunners Radio
++5
+arkinox
+videocam
+Cyberspace TV Live Stream
++4
+TWENTY ONE Esports
+videocam
+TrackMania Nations Forever: a weekly time attack on our own server
++2
+P.A.Z.NIA Radio Network
+videocam
+[P.A.Z.NIA RADIO NETWORK] Cloak & Dagger (Guest: Brian Sovryn) & A Comprehensive Overview of Vonu
++4
+NoGood ✌️
+videocam
+NoGood Radio
++4
+Trending notes
+4h
+12h
+24h
+Layer1 Studio
+The Bitcoin Island Coaster features a small vessel heading toward a remote bitcoin island, somewhere in the tropics. A future Bitcoin citadel, perhaps? A durable, high-gloss coaster featuring a 3D-printed core beneath a beautiful hand-poured resin finish. Launch Sale on now! layer1.studio/bitcoin-island-coaster/
+13h
+ZapAdd
+[Image note]
+12h
+Zitadelle2027
+📍👀
+16h
+The ₿itcoin Artist
+GM☕ Get your hands on as many Bitcoins as possible before the big print.
+13h
+Vitor Pamplona
+My wife went to CVS, bought something for $25, and was handed that traditional 3-foot receipt.​Without breaking eye contact with the cashier, she glanced at the receipt and said, "I would like to return this," pointing to the product she just bought.​I was confused.​Refund processed. She immediately handed it back. "Now I’d like to buy it again with this 40% off coupon."​She just hacked CVS for $10. Legend. 😅
+21h
+Kajoozie Maflingo
+Me and @TheRupertDamnit Making ghoulash with eggplants, tomatoes, peppers, and radish from @Purple Painter and @LMK's amazing homestead. Plus beef, cabbage, carrots and onion, with orzo pasta. Thanks for the hospitality, y'all rock! #foodstr
+21h
+Ȼħ!łłꞤθⱳ𐏑
+[Image note]
+19h
+Joe Nakamoto
+Gm 🌞 I switched to making talking head videos breaking my foot I just got my first 100k video and have maintained small but sustained growth. Sweet. It’s Proof I can pivot to other stuff. But dw I’ll keep making travel vlogumentaries in the new year 💪
+13h
+corndalorian
+[Image note]
+18h
+matts
+GM. I can confirm with 100% certainty that this video was taken last night at the Votivkirche in Vienna during the Light of Creation show. It was absolutely amazing! Don't trust, verify. #Bitcoin
+15h
+What's happening
+4h
+12h
+24h
+#bitcoin #btc #lightning
+249 people · 1,151 notes
+#nostr #asknostr #gm
+166 people · 900 notes
+#photography #photo #photostr
+52 people · 188 notes
+#music #rock #nowplaying
+46 people · 122 notes
+#movies #tv #film
+31 people · 161 notes
+Show more
+Who to follow
+Noshole
+@Noshole
+Follow
+MAHDOOD
+@MAHDOOD
+Follow
+Derek Ross
+@Derek Ross
+Follow
+Wormwood
+@Wormwood
+Follow
+Laan Tungir
+@Laan Tungir
+Follow
+
+© 2026 Nostrich. All rights reserved.
+
+Nostrich is a free and open-source Nostr client. Notes, profiles, and media live on Nostr relays and are not hosted by Nostrich. Support Nostrich and its development.
+Nostrich on GitHub
+
+Help Center|Terms of Service|Privacy Policy

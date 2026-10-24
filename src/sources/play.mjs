@@ -1,5 +1,17 @@
 // Google Play: the listing and its "Data safety" page, read as text in a real browser (the pages are built by script).
 // Only facts as the store shows them: who the developer is, their contact details, and what the developer declares about data.
+// "About the developer" (hidden behind a toggle, so read from the HTML): the legal name, email, postal address and phone the store shows.
+// Kept in the collected data as published; a fact sheet names the entity and the city, never a street or a phone number.
+function aboutDeveloper(html) {
+  const block = html.split('About the developer</div>')[1]?.split('</div></div>')[0] ?? ''
+  const parts = [...block.matchAll(/<div[^>]*>([^<]+)<\/div>/g)].map((m) => m[1].replace(/\\n/g, '\n').trim()).filter(Boolean)
+  return {
+    legalName: parts[0] ?? null,
+    email: parts.find((x) => /^[^\s@]+@[^\s@]+$/.test(x)) ?? null,
+    address: parts.find((x) => x.includes('\n')) ?? null,
+    phone: parts.find((x) => /^\+?[\d\s().-]{7,}$/.test(x)) ?? null,
+  }
+}
 const lines = (t) => t.split('\n').map((l) => l.trim()).filter(Boolean)
 
 export async function play(browser, id) {
@@ -18,10 +30,9 @@ export async function play(browser, id) {
       name: text[0] ?? null,
       developer: developerName,
       updated: after('Updated on')[0] ?? null,
-      email: text.find((l) => /^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(l)) ?? null,
-      address: after('Address', 3).join(', ') || null,
-      website: (html.match(/href="(https?:\/\/[^"]+)"[^>]*>\s*(?:<[^>]+>\s*)*Website/) ?? [])[1] ?? null,
-      privacyPolicy: (html.match(/href="(https?:\/\/[^"]+)"[^>]*>\s*(?:<[^>]+>\s*)*Privacy [Pp]olicy/) ?? [])[1] ?? null,
+      ...aboutDeveloper(html),
+      // the developer's own policy link (the page also links to Google's own privacy page, which is not it)
+      privacyPolicy: [...html.matchAll(/href="(https?:\/\/[^"]+)"/g)].map((m) => m[1]).find((u) => /privacy/i.test(u) && !/(^|\.)google\.com\//.test(new URL(u).host + '/')) ?? null,
     }
     const safety = `https://play.google.com/store/apps/datasafety?id=${encodeURIComponent(id)}&hl=en&gl=us`
     await page.goto(safety, { waitUntil: 'networkidle', timeout: 45000 })

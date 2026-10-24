@@ -3,5 +3,6 @@
   "website": "https://nostrich.org",
   "play": "org.nostrich.app",
   "repo": "nostrichOS/nostrich-client",
-  "privacyPolicy": "https://nostrich.org/privacy"
+  "privacyPolicy": "https://nostrich.org/privacy",
+  "appStore": "6807898323"
 }

@@ -1,0 +1,347 @@
+{
+  "client": "Nostrich",
+  "collected": "2026-10-24T22:32:44.900Z",
+  "config": {
+    "name": "Nostrich",
+    "website": "https://nostrich.org",
+    "play": "org.nostrich.app",
+    "repo": "nostrichOS/nostrich-client",
+    "privacyPolicy": "https://nostrich.org/privacy",
+    "appStore": "6807898323"
+  },
+  "errors": {},
+  "appStore": {
+    "found": true,
+    "source": "https://apps.apple.com/us/app/nostrich-nostr-client/id6807898323?uo=4",
+    "name": "Nostrich: Nostr Client",
+    "seller": "RHXO Technology, LLC",
+    "developer": "RHXO Technology",
+    "sellerUrl": "https://nostrich.org",
+    "version": "1.2.2",
+    "versionDate": "2026-10-23T20:14:51Z",
+    "firstRelease": "2026-09-23T07:00:00Z",
+    "rating": 5,
+    "ratings": 3
+  },
+  "github": {
+    "found": true,
+    "source": "https://github.com/nostrichOS/nostrich-client",
+    "license": "MIT",
+    "archived": false,
+    "created": "2026-09-23T04:22:53Z",
+    "lastPush": "2026-09-24T03:00:56Z",
+    "lastCommit": "2026-09-24T03:00:54Z",
+    "latestRelease": null,
+    "stars": 9
+  },
+  "nip89": [],
+  "play": {
+    "found": true,
+    "source": "https://play.google.com/store/apps/details?id=org.nostrich.app&hl=en&gl=us",
+    "name": "google_logo Play",
+    "developer": "RHXO Technology",
+    "updated": "Oct 3, 2026",
+    "legalName": "RHXO TECHNOLOGY LLC",
+    "email": "info@rhxo.com",
+    "address": "35 Hudson St APT 3003\nJersey City, NJ 07302-7555\nUnited States",
+    "phone": null,
+    "privacyPolicy": "https://nostrich.org/privacy",
+    "dataSafety": {
+      "source": "https://play.google.com/store/apps/datasafety?id=org.nostrich.app&hl=en&gl=us",
+      "text": [
+        "google_logo Play",
+        "Games",
+        "Apps",
+        "Movies & TV",
+        "Books",
+        "Kids",
+        "search",
+        "help_outline",
+        "Nostrich: Nostr Client",
+        "RHXO Technology",
+        "privacy_tip",
+        "The developer has provided this information about how this app collects, shares, and handles your data",
+        "Data safety",
+        "The developer says that this app doesn't collect or share any user data. Learn more about data safety",
+        "No data shared with third parties",
+        "The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.",
+        "No data collected",
+        "The developer says this app doesn’t collect user data",
+        "Google Play",
+        "Play Pass",
+        "Play Points",
+        "Gift cards",
+        "Redeem",
+        "Refund policy",
+        "Kids & family",
+        "Parent Guide",
+        "Family sharing",
+        "Terms of Service",
+        "Privacy",
+        "About Google Play",
+        "Developers",
+        "Google Store",
+        "United States (English)"
+      ]
+    }
+  },
+  "web": {
+    "source": "https://nostrich.org",
+    "finalUrl": "https://nostrich.org/",
+    "title": "Nostrich | Nostr Client",
+    "thirdParty": [
+      {
+        "host": "757btc.org",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "blossom.ditto.pub",
+        "requests": 3,
+        "thirdParty": true
+      },
+      {
+        "host": "blossom.einundzwanzig.space",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "blossom.primal.net",
+        "requests": 3,
+        "thirdParty": true
+      },
+      {
+        "host": "cdn.nostrcheck.me",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "cornychat.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "downtowneden.online",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "einundzwanzig.space",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "elites.nostrati.org",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "esports.einundzwanzig.space",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "files.catbox.moe",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "i.nostr.build",
+        "requests": 10,
+        "thirdParty": true
+      },
+      {
+        "host": "inostr.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "ipfs.cahlen.org",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "iris.to",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "layer1.studio",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "libestria.fr",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "noderunners.org",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "noderunnersradio.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "nogood.studio",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "nostr.download",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "nostr4.social",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "nostrcheck.me",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "ourheadwaters.ca",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "pbs.twimg.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "primal.net",
+        "requests": 3,
+        "thirdParty": true
+      },
+      {
+        "host": "r2a.primal.net",
+        "requests": 4,
+        "thirdParty": true
+      },
+      {
+        "host": "relay.hivetalk.org",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "relay.nogood.tech",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "sifaka.live",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "team.fanfares.io",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "turdsoup.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "v.nostr.build",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "vitorpamplona.com",
+        "requests": 3,
+        "thirdParty": true
+      },
+      {
+        "host": "wigglesticking.com",
+        "requests": 1,
+        "thirdParty": true
+      }
+    ],
+    "websockets": [
+      {
+        "host": "directory.yabu.me",
+        "thirdParty": true
+      },
+      {
+        "host": "nos.lol",
+        "thirdParty": true
+      },
+      {
+        "host": "nostr.bitcoiner.social",
+        "thirdParty": true
+      },
+      {
+        "host": "nostr.mom",
+        "thirdParty": true
+      },
+      {
+        "host": "nostr.oxtr.dev",
+        "thirdParty": true
+      },
+      {
+        "host": "profiles.nostr1.com",
+        "thirdParty": true
+      },
+      {
+        "host": "relay.damus.io",
+        "thirdParty": true
+      },
+      {
+        "host": "relay.primal.net",
+        "thirdParty": true
+      }
+    ],
+    "firstPartyHosts": [
+      "nostrich.org"
+    ],
+    "cookies": [
+      {
+        "name": "nostrich_lang",
+        "domain": "nostrich.org",
+        "thirdParty": false
+      }
+    ],
+    "localStorageKeys": [
+      "nostrich:feed:v2",
+      "nostrich:feed:v2:0",
+      "nostrich:hard-blocks:v1",
+      "nostrich:nip05:v1",
+      "nostrich:outbox:v2",
+      "nostrich:panel:curated-topics:v2:24",
+      "nostrich:panel:spaces",
+      "nostrich:panel:trending-farmed:12",
+      "nostrich:panel:trending-farmed:24",
+      "nostrich:panel:trending-farmed:4",
+      "nostrich:panel:trending-rows:24",
+      "nostrich:panel:trending:12",
+      "nostrich:panel:trending:24",
+      "nostrich:panel:trending:4",
+      "nostrich:panel:zaps:v2",
+      "nostrich:profiles:v1",
+      "nostrich:topics:v6"
+    ],
+    "headers": {
+      "content-security-policy": "upgrade-insecure-requests",
+      "strict-transport-security": null,
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "permissions-policy": "camera=(self \"https://cornychat.com\"), microphone=(self \"https://cornychat.com\"), geolocation=()",
+      "x-frame-options": "SAMEORIGIN"
+    }
+  },
+  "policy": {
+    "source": "https://nostrich.org/privacy",
+    "status": 200,
+    "stated": "October 23, 2026",
+    "chars": 29240,
+    "text": "(see 2026-10-24-privacy.txt)"
+  }
+}
