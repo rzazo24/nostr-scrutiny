@@ -30,8 +30,15 @@ for (const f of sheets) {
   const name = md.match(/^# (.+?) — /m)?.[1] ?? id
   const checked = md.match(/Checked on (\d{4}-\d{2}-\d{2})/)?.[1] ?? ''
   const what = (md.match(/^\*\*What it is:\*\* (.+)$/m)?.[1] ?? '').replace(/\[([^\]]+)\]\([^)]+\)/g, '').replace(/\s+\.?\s*$/, '').trim()
-  const html = marked.parse(md)
-  writeFileSync(new URL(`${id}.html`, out), page(`${name} — Nostr Scrutiny`, `<article>${html}</article><p class="back"><a href="/">← All clients</a></p>`, `Fact sheet about the Nostr client ${name}: who is behind it, keys, code and privacy.`))
+  // each section gets an id, and the sections make a contents list (shown beside the sheet on wide screens)
+  const sections = []
+  const html = marked.parse(md).replace(/<h2>(.+?)<\/h2>/g, (_, title) => {
+    const slug = title.toLowerCase().replace(/<[^>]+>/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+    sections.push({ slug, title })
+    return `<h2 id="${slug}">${title}</h2>`
+  })
+  const toc = `<nav class="toc" aria-label="Sections"><p>${esc(name)}</p><ol>${sections.map((s) => `<li><a href="#${s.slug}">${s.title}</a></li>`).join('')}</ol><p class="back"><a href="/">← All clients</a></p></nav>`
+  writeFileSync(new URL(`${id}.html`, out), page(`${name} — Nostr Scrutiny`, `<div class="sheet">${toc}<article>${html}<p class="back"><a href="/">← All clients</a></p></article></div>`, `Fact sheet about the Nostr client ${name}: who is behind it, keys, code and privacy.`))
   rows.push({ id, name, checked, what: what.charAt(0).toUpperCase() + what.slice(1) })
 }
 
@@ -40,5 +47,5 @@ const intro = `<h1>Nostr Scrutiny</h1>
 <p>Each sheet puts side by side what the app stores say, what the privacy policy says, what the published code shows and what the app actually does when opened in a browser. Where these disagree, the sheet says so. Facts and sources only: no scores and no verdicts, so you can judge for yourself.</p>
 <p>Disclosure: Quill is made by the same person who publishes these sheets, and it goes through exactly the same checks.</p>`
 const list = `<h2>Clients</h2><ul class="clients">${rows.map((r) => `<li><a href="/${r.id}.html"><strong>${esc(r.name)}</strong><span>${esc(r.what)}</span><small>Checked ${esc(r.checked)}</small></a></li>`).join('')}</ul>`
-writeFileSync(new URL('index.html', out), page('Nostr Scrutiny', intro + list, 'Fact sheets about Nostr clients: who is behind them, what they do with your keys, their code and their privacy. Facts and sources only.'))
+writeFileSync(new URL('index.html', out), page('Nostr Scrutiny', `<div class="home">${intro}</div>` + list, 'Fact sheets about Nostr clients: who is behind them, what they do with your keys, their code and their privacy. Facts and sources only.'))
 console.log(`site/: index + ${rows.length} sheets`)
