@@ -1,6 +1,6 @@
 # Quill — Nostr Scrutiny fact sheet
 
-*Checked on 2026-10-24. Facts and sources only: no score, no verdict.*
+*Checked on 2026-10-25. Facts and sources only: no score, no verdict.*
 *Disclosure: Quill is made by the same person who publishes Nostr Scrutiny. It goes through exactly the same checks as any other client.*
 
 **What it is:** a text-first Nostr client that runs in the browser and can be installed as a web app (PWA). No App Store or Google Play listing. [quill.hivescope.xyz](https://quill.hivescope.xyz)
@@ -14,17 +14,16 @@
 ## Your keys
 
 - Quill never asks for a private key (nsec). Reading only needs a public key (npub); the login form refuses an nsec. [Source code](https://github.com/rzazo24/quill)
-- Writing goes through a remote signer (NIP-46): Amber, Primal, Clave, nsec.app or your own bunker. The signer holds the key and signs. [In-app help](https://quill.hivescope.xyz/#/help)
-- It does not use browser extensions (NIP-07).
+- Writing goes through a remote signer (NIP-46: Amber, Primal, Clave or your own bunker) or, since 2026-10-25, a browser extension (NIP-07, such as Alby or nos2x). The signer or extension holds the key and signs; Quill checks each event against its own policy before asking, and checks what comes back. [In-app help](https://quill.hivescope.xyz/#/help)
 
 ## Code
 
-- Open source, **MIT** licence. Last commit: 2026-10-24.
+- Open source, **MIT** licence. Last commit: 2026-10-25.
 - No tagged releases. The site is deployed by its author from that repository; from the outside there is no way to prove that what the server sends is exactly a given commit.
 
 ## Privacy: what the policy says
 
-The policy (dated 2026-10-24) says, among other things, that Quill never sees the private key; settings, drafts, saved notes and wallet connections stay in the browser; the web server keeps no access log; the picture proxy keeps small copies for 7 days and logs only the site of a picture that fails; the Pick of the day is made by Claude from public notes without data about the reader; and Quill sets no cookies and uses no analytics. It also says that relay.hivescope.xyz, one of the default relays, is run by the same person.
+The policy (dated 2026-10-25) says, among other things, that Quill never sees the private key; settings, drafts, saved notes and wallet connections stay in the browser; the web server keeps no access log; the picture proxy keeps small copies for 7 days and logs only the site of a picture that fails; the Pick of the day is made by Claude from public notes without data about the reader; and Quill sets no cookies and uses no analytics. It also says that relay.hivescope.xyz, one of the default relays, is run by the same person.
 
 ## Privacy: what the web app does
 
@@ -51,5 +50,5 @@ From its source code and server configuration (not visible to a visitor):
 
 - Repository: https://github.com/rzazo24/quill
 - Web app: https://quill.hivescope.xyz
-- Privacy policy: https://quill.hivescope.xyz/privacy.html (copy of 2026-10-24 in `data/quill/`)
-- Collected data: `data/quill/2026-10-24.json` in the Nostr Scrutiny repository
+- Privacy policy: https://quill.hivescope.xyz/privacy.html (copy of 2026-10-25 in `data/quill/`)
+- Collected data: `data/quill/2026-10-25.json` in the Nostr Scrutiny repository
