@@ -1,6 +1,6 @@
 # Primal — Nostr Scrutiny fact sheet
 
-*Checked on 2026-10-24. Facts and sources only: no score, no verdict.*
+*Checked on 2026-10-24 (updated 2026-10-25). Facts and sources only: no score, no verdict.*
 
 **What it is:** a Nostr client for the web, iPhone and Android, with a hosted wallet and a paid "Premium" tier. [primal.net](https://primal.net)
 
@@ -9,6 +9,7 @@
 - **App Store:** sold by **Primal Systems Incorporated.**, version 3.5.65 of 2026-10-20. [App Store](https://apps.apple.com/us/app/primal/id1673134518)
 - **Google Play:** developer **Primal Systems Inc**, contact support@primal.net, updated 2026-10-19. [Google Play](https://play.google.com/store/apps/details?id=net.primal.android)
 - **Privacy policy:** Primal Systems Inc. and its affiliates; the website gives Doral, Florida (US). The hosted wallet is offered "in partnership with our affiliate Zap Solutions, Inc. ("Strike")". [Privacy policy](https://primal.net/privacy)
+- **People:** Primal's website names no one. On Nostr, the account **miljan**, whose address `miljan@primal.net` is verified by primal.net itself (NIP-05), describes itself as "Building Primal". Added after a reader pointed it out. [Verification](https://primal.net/.well-known/nostr.json?name=miljan)
 - No NIP-89 app announcement (kind 31990) was found for Primal on four large relays.
 
 ## Your keys
