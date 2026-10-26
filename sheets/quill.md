@@ -18,7 +18,7 @@
 
 ## Your notes
 
-- **"Your notes, safe"** (Settings): asks each of the reader's relays which of their notes it holds, re-sends the missing ones unchanged, and saves a file with everything found (notes, articles, profile and lists). Since 2026-10-26 that file can be loaded back: only events validly signed by the logged-in account are re-sent, unchanged. [Source code](https://github.com/rzazo24/quill/blob/main/src/data/rescue.ts)
+- **"Your notes, safe"** (Settings): asks each of the reader's relays which of their notes it holds, re-sends the missing ones unchanged, and saves a file with everything found (notes, articles, profile and lists). Since 2026-10-26 that file can be loaded back: only events validly signed by the logged-in account are re-sent, unchanged. Deletions are sent last; afterwards each relay is asked, by id, which of the accepted events it really serves, and what did not land can be downloaded as a file to load again. [Source code](https://github.com/rzazo24/quill/blob/main/src/data/rescue.ts)
 
 ## Code
 
