@@ -1,6 +1,6 @@
 # Quill — Nostr Scrutiny fact sheet
 
-*Checked on 2026-10-25. Facts and sources only: no score, no verdict.*
+*Checked on 2026-10-25 (updated 2026-10-26). Facts and sources only: no score, no verdict.*
 *Disclosure: Quill is made by the same person who publishes Nostr Scrutiny. It goes through exactly the same checks as any other client.*
 
 **What it is:** a text-first Nostr client that runs in the browser and can be installed as a web app (PWA). No App Store or Google Play listing. [quill.hivescope.xyz](https://quill.hivescope.xyz)
@@ -16,9 +16,13 @@
 - Quill never asks for a private key (nsec). Reading only needs a public key (npub); the login form refuses an nsec. [Source code](https://github.com/rzazo24/quill)
 - Writing goes through a remote signer (NIP-46: Amber, Primal, Clave or your own bunker) or, since 2026-10-25, a browser extension (NIP-07, such as Alby or nos2x). The signer or extension holds the key and signs; Quill checks each event against its own policy before asking, and checks what comes back. [In-app help](https://quill.hivescope.xyz/#/help)
 
+## Your notes
+
+- **"Your notes, safe"** (Settings): asks each of the reader's relays which of their notes it holds, re-sends the missing ones unchanged, and saves a file with everything found (notes, articles, profile and lists). Since 2026-10-26 that file can be loaded back: only events validly signed by the logged-in account are re-sent, unchanged. [Source code](https://github.com/rzazo24/quill/blob/main/src/data/rescue.ts)
+
 ## Code
 
-- Open source, **MIT** licence. Last commit: 2026-10-25.
+- Open source, **MIT** licence. Last commit: 2026-10-26.
 - No tagged releases. The site is deployed by its author from that repository; from the outside there is no way to prove that what the server sends is exactly a given commit.
 
 ## Privacy: what the policy says
