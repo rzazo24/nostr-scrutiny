@@ -1,6 +1,6 @@
 # Nostrich — Nostr Scrutiny fact sheet
 
-*Checked on 2026-10-24. Facts and sources only: no score, no verdict.*
+*Checked on 2026-10-24 (updated 2026-10-28). Facts and sources only: no score, no verdict.*
 
 **What it is:** a Nostr client for the web, iPhone/iPad, Android and Mac, with a marketplace, chat, "Spaces" and paid zap campaigns. [nostrich.org](https://nostrich.org)
 
@@ -22,7 +22,7 @@ According to its privacy policy:
 ## Code
 
 - The policy calls Nostrich free and open source. The GitHub account **nostrichOS** (created 2026-09-02) has a repository `nostrich-client` under the **MIT** licence. [Repository](https://github.com/nostrichOS/nostrich-client)
-- Its **last commit is of 2026-09-24**, while the iPhone app had a new version on 2026-10-23 and the Android app on 2026-10-03. No tagged releases. The published code cannot be matched to the apps in the stores.
+- Its **last commit is of 2026-10-26**, after the current store versions (iPhone 2026-10-23, Android 2026-10-03). When this sheet was first written it was 2026-09-24, a month behind them. No tagged releases, so the published code still cannot be matched to the apps in the stores.
 
 ## Privacy: what the stores say
 
@@ -55,7 +55,7 @@ Opened as a first-time visitor, with nothing clicked, for 8 seconds:
 
 ## What could not be checked
 
-- Whether the apps in the stores are built from the published code (its last commit predates the current versions).
+- Whether the apps in the stores are built from the published code (there are no tagged releases).
 - What the servers actually store and for how long, beyond what the policy says.
 - The iPhone app's privacy label (Apple's API does not return it).
 
