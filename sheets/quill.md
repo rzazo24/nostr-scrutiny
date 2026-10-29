@@ -1,6 +1,6 @@
 # Quill — Nostr Scrutiny fact sheet
 
-*Checked on 2026-10-25 (updated 2026-10-26). Facts and sources only: no score, no verdict.*
+*Checked on 2026-10-25 (updated 2026-10-29). Facts and sources only: no score, no verdict.*
 *Disclosure: Quill is made by the same person who publishes Nostr Scrutiny. It goes through exactly the same checks as any other client.*
 
 **What it is:** a text-first Nostr client that runs in the browser and can be installed as a web app (PWA). No App Store or Google Play listing. [quill.hivescope.xyz](https://quill.hivescope.xyz)
@@ -18,11 +18,11 @@
 
 ## Your notes
 
-- **"Your notes, safe"** (Settings): asks each of the reader's relays which of their notes it holds, re-sends the missing ones unchanged, and saves a file with everything found (notes, articles, profile and lists). Since 2026-10-26 that file can be loaded back: only events validly signed by the logged-in account are re-sent, unchanged. Deletions are sent last; afterwards each relay is asked, by id, which of the accepted events it really serves, and what did not land can be downloaded as a file to load again. [Source code](https://github.com/rzazo24/quill/blob/main/src/data/rescue.ts)
+- **"Your notes, safe"** (Settings): asks each of the reader's relays which of their notes it holds, re-sends the missing ones unchanged, and saves a file with everything found (notes, articles, profile and lists). Since 2026-10-26 that file can be loaded back: only events validly signed by the logged-in account are re-sent, unchanged. Deletions are sent last; afterwards each relay is asked which of the accepted events it really serves (notes by id; a profile, list or article by its slot, since a relay keeps only the newest version), and what did not land can be downloaded as a file to load again. [Source code](https://github.com/rzazo24/quill/blob/main/src/data/rescue.ts)
 
 ## Code
 
-- Open source, **MIT** licence. Last commit: 2026-10-26.
+- Open source, **MIT** licence. Last commit: 2026-10-28.
 - No tagged releases. The site is deployed by its author from that repository; from the outside there is no way to prove that what the server sends is exactly a given commit.
 
 ## Privacy: what the policy says
