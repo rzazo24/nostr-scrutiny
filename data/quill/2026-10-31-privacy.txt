@@ -1,0 +1,42 @@
+Quill · Privacy policy
+Quill privacy policy
+Last updated: 2026-10-31 ·
+En español
+·
+Back to Quill
+Who runs Quill
+Quill is made and run by one person, not a company. There is no Quill account. Contact on Nostr:
+npub1v7nf76fh474q4dnqfjpnkyqsmg439n5uw9x9jdpvzmmgczvrwhcsuhvl8a
+. The source code is public:
+github.com/rzazo24/quill
+.
+Your keys
+Quill never asks for your private key (nsec) and never sees it. Reading only needs your public key (npub).
+To write, Quill sends each event to your signer (NIP-46: Amber, Primal, Clave or your own bunker) or to a browser extension (NIP-07, such as nos2x, Sidecar or Alby), which holds the key and signs it.
+What stays on your device
+Your settings, the account you read as, drafts, saved notes, muted words, the connection to your signer and, if you set one up, your wallet connection (Nostr Wallet Connect) are kept in your browser's storage on this device. They are not sent to Quill's server. Clearing the site's data removes them.
+What relays see
+Like any Nostr client, Quill reads from and publishes to relays: by default relay.hivescope.xyz (run by the same person as Quill), relay.primal.net, nos.lol, nostr.mom, nostr.oxtr.dev and nostr.bitcoiner.social, and any you add in Settings. When needed it also asks others: purplepag.es for follow lists, the relays where the people you follow write (a setting, on by default), large relays for the notes of the Pick of the day, and search relays when you search the whole network. Each relay sees your IP address, what you ask for and what you publish, under its own rules. What you publish on Nostr is public and can be copied anywhere.
+What Quill's server does
+The web app:
+it serves Quill's files. The web server keeps no access log.
+Profile pictures
+(off by default): when you turn on real profile pictures, Quill's server fetches each picture for you and returns a small copy, so the picture's site sees the server's address, not yours. The server sees which pictures are asked for, keeps the small copies for 7 days, and logs only the site of a picture that fails to load.
+Pick of the day:
+every morning an AI model (Claude, by Anthropic) chooses notes from public Nostr notes on the server. Nothing about you is sent to it; the selection is a public file, the same for everyone.
+New versions:
+Quill checks a small public file (
+/version.json
+) to know whether a new version exists. Nothing about you is sent.
+relay.hivescope.xyz
+stores the events published to it (deleted after 180 days, except profiles and lists) and logs a short prefix of the key of events it rejects, to deal with spam.
+Photos
+Adding photos to notes is off unless you turn it on in Settings. When you add one, Quill first draws it again in your browser, which removes what the camera writes into the file (such as the place it was taken), and makes it smaller. It is then uploaded straight from your browser to a Blossom server: one from your own published list, or one you chose. Quill's server never receives it. That Blossom server sees your IP address and the photo, under its own rules, and the photo is public, like the note that shows it. Your signer signs a permission for that one upload, which only that server sees.
+What you publish
+Notes and reactions written with Quill carry a public
+["client","Quill"]
+tag, so other apps can show they were written with Quill. It is on by default and can be turned off in Settings.
+What Quill does not do
+No cookies, no analytics, no advertising, no tracking, no sale of data. The web app loads nothing from other sites except the relays it uses and the pictures and media in notes when you choose to show them.
+Changes
+Changes to this policy are dated here and recorded in the public history of the source code.

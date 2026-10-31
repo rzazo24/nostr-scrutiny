@@ -1,6 +1,6 @@
 # Quill — Nostr Scrutiny fact sheet
 
-*Checked on 2026-10-25 (updated 2026-10-29). Facts and sources only: no score, no verdict.*
+*Checked on 2026-10-25 (updated 2026-10-31). Facts and sources only: no score, no verdict.*
 *Disclosure: Quill is made by the same person who publishes Nostr Scrutiny. It goes through exactly the same checks as any other client.*
 
 **What it is:** a text-first Nostr client that runs in the browser and can be installed as a web app (PWA). No App Store or Google Play listing. [quill.hivescope.xyz](https://quill.hivescope.xyz)
@@ -22,12 +22,12 @@
 
 ## Code
 
-- Open source, **MIT** licence. Last commit: 2026-10-28.
+- Open source, **MIT** licence. Last commit: 2026-10-31.
 - No tagged releases. The site is deployed by its author from that repository; from the outside there is no way to prove that what the server sends is exactly a given commit.
 
 ## Privacy: what the policy says
 
-The policy (dated 2026-10-25) says, among other things, that Quill never sees the private key; settings, drafts, saved notes and wallet connections stay in the browser; the web server keeps no access log; the picture proxy keeps small copies for 7 days and logs only the site of a picture that fails; the Pick of the day is made by Claude from public notes without data about the reader; and Quill sets no cookies and uses no analytics. It also says that relay.hivescope.xyz, one of the default relays, is run by the same person.
+The policy (dated 2026-10-31) says, among other things, that Quill never sees the private key; settings, drafts, saved notes and wallet connections stay in the browser; the web server keeps no access log; the picture proxy keeps small copies for 7 days and logs only the site of a picture that fails; the Pick of the day is made by Claude from public notes without data about the reader; Quill sets no cookies and uses no analytics; and photos, off by default, go from the browser to a Blossom server, never to Quill's. It also says that relay.hivescope.xyz, one of the default relays, is run by the same person.
 
 ## Privacy: what the web app does
 
@@ -44,6 +44,7 @@ From its source code and server configuration (not visible to a visitor):
 - **The client tag:** notes and reactions written with Quill carry a public `["client","Quill"]` tag by default (NIP-89). It can be turned off in Settings.
 - **Server logs:** the web server configuration has no access log set up. [Server config](https://github.com/rzazo24/quill/blob/main/deploy/quill.caddy.template)
 - **Zaps:** a wallet connection (Nostr Wallet Connect) is kept only in the browser of the device.
+- **Photos (since 2026-10-31, off by default):** when turned on, a photo is redrawn in the browser (which drops camera metadata such as location) and uploaded from the browser to a Blossom server from the writer's own list, or one they chose; Quill's server does not receive it. The Blossom server sees the IP address and the photo. [Source code](https://github.com/rzazo24/quill/blob/main/src/core/blossom.ts)
 
 ## What could not be checked
 
@@ -54,5 +55,5 @@ From its source code and server configuration (not visible to a visitor):
 
 - Repository: https://github.com/rzazo24/quill
 - Web app: https://quill.hivescope.xyz
-- Privacy policy: https://quill.hivescope.xyz/privacy.html (copy of 2026-10-25 in `data/quill/`)
+- Privacy policy: https://quill.hivescope.xyz/privacy.html (copy of 2026-10-31 in `data/quill/`)
 - Collected data: `data/quill/2026-10-25.json` in the Nostr Scrutiny repository
