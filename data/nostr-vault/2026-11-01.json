@@ -1,0 +1,53 @@
+{
+  "client": "Nostr Vault",
+  "collected": "2026-11-01T00:04:35.581Z",
+  "config": {
+    "name": "Nostr Vault",
+    "website": "https://nostrvault.app/vault/",
+    "repo": "btcforplebs/nostr-vault",
+    "privacyPolicy": "https://nostrvault.app/privacy.html"
+  },
+  "errors": {},
+  "github": {
+    "found": true,
+    "source": "https://github.com/btcforplebs/nostr-vault",
+    "license": "MIT",
+    "archived": false,
+    "created": "2025-09-05T13:08:36Z",
+    "lastPush": "2026-10-31T23:54:49Z",
+    "lastCommit": "2026-10-31T23:54:47Z",
+    "latestRelease": {
+      "tag": "v3.0.1-b53",
+      "date": "2026-10-29T00:50:59Z",
+      "url": "https://github.com/btcforplebs/nostr-vault/releases/tag/v3.0.1-b53"
+    },
+    "stars": 15
+  },
+  "nip89": [],
+  "web": {
+    "source": "https://nostrvault.app/vault/",
+    "finalUrl": "https://nostrvault.app/vault/",
+    "title": "Nostr Vault",
+    "thirdParty": [],
+    "websockets": [],
+    "firstPartyHosts": [
+      "nostrvault.app"
+    ],
+    "cookies": [],
+    "localStorageKeys": [],
+    "headers": {
+      "content-security-policy": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data: blob:; media-src 'self' https: blob:; connect-src 'self' https: wss: http://*.onion; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'self'",
+      "strict-transport-security": null,
+      "referrer-policy": "no-referrer",
+      "permissions-policy": null,
+      "x-frame-options": "SAMEORIGIN"
+    }
+  },
+  "policy": {
+    "source": "https://nostrvault.app/privacy.html",
+    "status": 200,
+    "stated": "October 23, 2026",
+    "chars": 8801,
+    "text": "(see 2026-11-01-privacy.txt)"
+  }
+}

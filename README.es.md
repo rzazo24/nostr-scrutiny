@@ -15,6 +15,7 @@ Cada ficha pone una junto a otra lo que dicen las tiendas de apps, lo que dice l
 | [Amethyst](sheets/amethyst.md) | 2026-10-24 |
 | [Damus](sheets/damus.md) | 2026-10-24 |
 | [Nostrich](sheets/nostrich.md) | 2026-10-24 |
+| [Nostr Vault](sheets/nostr-vault.md) | 2026-11-01 |
 | [Primal](sheets/primal.md) | 2026-10-24 |
 | [Quill](sheets/quill.md) | 2026-10-24 |
 

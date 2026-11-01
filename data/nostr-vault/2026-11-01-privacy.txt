@@ -1,0 +1,69 @@
+NOSTR VAULT
+GitHub
+Privacy Policy
+
+Last Updated: October 23, 2026
+
+This Privacy Policy describes how your information is handled when you use the Nostr Vault apps for iPhone, iPad, Mac and Android, the web app at nostrvault.app/vault/, and the nostrvault.app website. Nostr Vault is a Nostr client with a Nostr relay (your "vault") built in. It is made by btcforplebs ("we").
+
+1. What We Run and What It Keeps
+
+The apps have no analytics, crash reporting, advertising or tracking code, and no push notification server: notifications are made on your device. We do not build profiles of people, score them or index anyone who doesn't use the app. Two things we run do receive data, and one copy of the website runs elsewhere:
+
+Our relay, relay.btcforplebs.com. It is one of the default relays in the apps and the web app. Like any Nostr relay, it receives and stores the notes and other events you publish to it, and it answers the apps' requests for your follows' notes, your inbox and your messages (which arrive encrypted). It sees your IP address and public key when you connect. You can remove it in Settings → Relays.
+The website, nostrvault.app. It runs on our own server behind Cloudflare, which sees your IP address and the pages you request. Our web server keeps a standard log of each request (IP address, time, page address, browser and the page you came from). Page addresses include nostrvault.app/thread/ links, so the log shows which shared posts were opened. Each day's log is deleted after 7 days. When someone opens a /thread/ link, our server reads that public post from public Nostr relays and keeps the page in memory for up to 10 minutes.
+The nsite copy of the website. Each update is also published on Nostr as an nsite: the same files, stored on Blossom media servers and signed by the site's own key. If you open that copy (for example through nsite.lol), the gateway you use and the Blossom servers it fetches from see your IP address instead of Cloudflare and our server. Those services have their own policies.
+2. The Nostr Network
+
+When you publish notes, update your profile, react, zap or send messages, the App signs that data with your key and sends it to your relays. Notes, profiles, follows and reactions are public. Direct messages are encrypted, but relays can see who sent them, to whom and when. Anyone can copy what a public relay holds, and a relay may keep it after you delete it.
+
+3. Services the Apps Contact on Their Own
+
+To show your feed, the apps connect to other people's servers. Each of them sees your IP address, like any website does.
+
+Default relays. Besides ours: relay.damus.io, relay.primal.net, relay.snort.social, purplepag.es and other profile relays, the relays your follows publish to, and the relays behind some tabs (zap.stream, divine.video, zap.cooking and the marketplace). They see your follow list through the requests and the profiles you look up. You can change them in Settings → Relays.
+Profile pictures through wsrv.nl. The iPhone, Mac and Android apps load profile pictures through wsrv.nl, a third-party image resizer, so it sees the address of each picture you view and can tell whose profiles you look at. There is no setting to turn this off yet.
+Photos and videos. They load straight from the servers that host them (for example nostr.build, Primal or Blossom servers). With Prefetch Profile Pictures on (the default on Android), the app loads your follows' pictures ahead of time.
+Link previews. When a note with a link shows on screen, all three apps fetch that page to draw a preview card, so the site learns your IP address and the time. Anyone who posts a link can learn the IP address of people who scroll past it. There is no setting to turn this off yet.
+Zap totals. To check the zaps shown under notes, the apps contact each recipient's Lightning address service (LNURL), which sees your IP address.
+Music. When a note links a Wavlake track, or you open the Music tab, the app asks wavlake.com about it.
+FIPS mesh seeds. When the FIPS mesh runs, the app or page connects to the public seeds fips1.iris.to and fips2.iris.to, run by iris.to, and to finder relays (nostr.net, bitcoiner.social and ours). It may also ask public STUN servers (Google, Cloudflare, Twilio) for your public IP address. They see your IP address and your mesh address. The web app's mesh address is a separate key, not your Nostr account. In the apps (from version 3.0), the mesh is in Settings → FIPS Mesh. In the web app it starts when you start FIPS on the Relay screen or a photo loads over the mesh; turn mesh photos off in Settings → Media Servers → Load photos over the mesh. When you add mesh devices, the app can publish their mesh addresses in your public media server list, which links them to your Nostr account.
+4. Lookups You Turn On
+
+These send a request signed by your key, so the service can tie it to your account. Both are off unless you turn them on in Settings → Privacy.
+
+Follower Counts from Vertex. When you open a profile, the app asks Vertex (relay.vertexlab.io) for that person's follower count. Vertex learns whose profiles you open.
+Check Fanfares Articles. When a Fanfares article shows, the app asks fanfares.io whether you have bought it, naming the article. When this is off, the app asks only when you tap the button to check.
+5. Things You Do
+
+These only happen when you use them, and the service sees what you send it: search (search.nos.today, nostr.wine, relay.vertexlab.io and nostrver.se get the text you type), GIF search (gifs.nostr.build), your wallet (Nostr Wallet Connect relay, Lightning payments and, for the on-chain wallet, mempool.space), media uploads (your Blossom servers; new accounts start with blossom.nostr.build and Primal), remote signers (NIP-46, through relay.powr.build or the relay you choose), NIP-05 checks during setup, and backups to storage you set up.
+
+6. On Your Device
+
+Your vault relay, your notes, messages, drafts and media cache are kept on your device. In the apps, your private key is kept in the device's Keychain (iPhone and Mac) or encrypted app storage (Android), or stays in your remote signer or Amber.
+
+7. The Web App
+
+The web app at nostrvault.app/vault/ runs in your browser. Its relay, your notes, messages and drafts, a bunker connection (stored encrypted), your wallet connection (stored encrypted), the page's device key and the browser's own FIPS mesh key are kept in that browser's storage on your device. If you sign in with a browser extension or bunker, the web app never holds your Nostr secret key: the extension or bunker does. If you create an account in the web app, its secret key is made in your browser and kept in that browser's storage, encrypted with the password you choose (NIP-49) and with a key the browser keeps for this site; it is never sent to us or anyone else. The browser may delete this storage too (Safari does after 7 days without a visit), and then only the copy of your secret key you saved can get the account back, in a Nostr browser extension or in the Nostr Vault app (the web app does not take a secret key).
+
+Creating an account publishes your relay list, the relays you take messages on, the name and photo you enter (the photo goes to a media server, blossom.nostr.build or blossom.primal.net) and the people you choose to follow.
+
+Signing out deletes this account's vault, drafts and wallet connection, a secret key made in this browser, and the page's device and mesh keys. Some things stay in the browser until you clear the site's data in your browser settings: your search history, your feed and message relay choices, which posts you have seen, the list of accounts used on this browser and the page's offline copy of the app.
+
+The web app connects to the same kinds of services as the apps (section 3), except wsrv.nl: our relay, relay.damus.io, relay.primal.net and relay.snort.social for reading and posting, purplepag.es for profiles, search.nos.today for search, Wavlake, zap.stream and zap.cooking, media hosts, link previews and zap services.
+
+8. Reporting and Blocking
+
+The App displays User Generated Content from the Nostr network. You can block people and filter what you see on your device. Reporting a post or a person publishes a public report (a Nostr kind 1984 event, signed by you) to your relays. It does not come to us. To tell us about abusive content, use the contacts below.
+
+9. Contact Information
+
+If you have any questions about this Privacy Policy or need to report abusive content, please contact the developer at:
+
+Email: btcforplebs@gmail.com
+GitHub: github.com/btcforplebs/nostr-vault/issues
+Nostr: npub1vxlhjzeqjjhmqdy4e8sndt8kzklqlnxzew2mtt8mtakvalsckp3qa0gnvx
+
+© 2026 Nostr Vault. Built on top of the incredible work by bitvora.
+
+Designed with passion. | Privacy Policy
