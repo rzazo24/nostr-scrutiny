@@ -1,0 +1,140 @@
+{
+  "client": "White Noise",
+  "collected": "2026-11-04T12:04:45.763Z",
+  "config": {
+    "name": "White Noise",
+    "website": "https://whitenoise.chat",
+    "play": "dev.ipf.whitenoise.android",
+    "repo": "marmot-protocol/whitenoise-android",
+    "privacyPolicy": "https://whitenoise.chat/privacy",
+    "note": "Messenger for Android and iPhone (TestFlight beta) on the Marmot protocol (MLS over Nostr); whitenoise.chat is its website, not a web client. Separate repositories per platform: whitenoise-android, whitenoise-ios, whitenoise-mac, whitenoise-linux."
+  },
+  "errors": {},
+  "github": {
+    "found": true,
+    "source": "https://github.com/marmot-protocol/whitenoise-android",
+    "license": "AGPL-3.0",
+    "archived": false,
+    "created": "2026-05-25T18:57:00Z",
+    "lastPush": "2026-11-04T11:47:32Z",
+    "lastCommit": "2026-11-04T08:23:49Z",
+    "latestRelease": {
+      "tag": "android-v2026.10.27",
+      "date": "2026-10-27T12:46:34Z",
+      "url": "https://github.com/marmot-protocol/whitenoise-android/releases/tag/android-v2026.10.27"
+    },
+    "stars": 12
+  },
+  "nip89": [],
+  "play": {
+    "found": true,
+    "source": "https://play.google.com/store/apps/details?id=dev.ipf.whitenoise.android&hl=en&gl=us",
+    "name": "google_logo Play",
+    "developer": "Internet Privacy Foundation",
+    "updated": "Oct 27, 2026",
+    "legalName": "Internet Privacy Foundation",
+    "email": "dev@ipf.dev",
+    "address": "30 N Gould St Ste R\nSheridan, WY 82801-6317\nUnited States",
+    "phone": "+1 307-212-9559",
+    "privacyPolicy": "https://whitenoise.chat/privacy",
+    "dataSafety": {
+      "source": "https://play.google.com/store/apps/datasafety?id=dev.ipf.whitenoise.android&hl=en&gl=us",
+      "text": [
+        "google_logo Play",
+        "Games",
+        "Apps",
+        "Movies & TV",
+        "Books",
+        "Kids",
+        "search",
+        "help_outline",
+        "White Noise: Secure Chat",
+        "Internet Privacy Foundation",
+        "privacy_tip",
+        "The developer has provided this information about how this app collects, shares, and handles your data",
+        "Data safety",
+        "Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more",
+        "No data shared with third parties",
+        "The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.",
+        "Data collected",
+        "Data this app may collect",
+        "App activity",
+        "App interactions",
+        "expand_more",
+        "App info and performance",
+        "Diagnostics and Other app performance data",
+        "expand_more",
+        "Location",
+        "Approximate location",
+        "expand_more",
+        "Audio",
+        "Voice or sound recordings",
+        "expand_more",
+        "Device or other IDs",
+        "Device or other IDs",
+        "expand_more",
+        "Contacts",
+        "Contacts",
+        "expand_more",
+        "Personal info",
+        "Name, User IDs, and Other info",
+        "expand_more",
+        "Photos and videos",
+        "Photos",
+        "expand_more",
+        "Security practices",
+        "Data is encrypted in transit",
+        "Your data is transferred over a secure connection",
+        "You can request that data be deleted",
+        "The developer provides a way for you to request that your data be deleted",
+        "info",
+        "For more information about collected and shared data, see the developer's privacy policy",
+        "Google Play"
+      ]
+    }
+  },
+  "web": {
+    "source": "https://whitenoise.chat",
+    "finalUrl": "https://www.whitenoise.chat/",
+    "title": "White Noise — The private messenger you can start using in seconds. No phone number, no email.",
+    "thirdParty": [
+      {
+        "host": "analytics.ipf.dev",
+        "requests": 2,
+        "thirdParty": true
+      }
+    ],
+    "websockets": [],
+    "firstPartyHosts": [
+      "whitenoise.chat",
+      "www.whitenoise.chat"
+    ],
+    "cookies": [
+      {
+        "name": "__vdpl",
+        "domain": "www.whitenoise.chat",
+        "thirdParty": false
+      },
+      {
+        "name": "__vdpl",
+        "domain": "www.whitenoise.chat",
+        "thirdParty": false
+      }
+    ],
+    "localStorageKeys": [],
+    "headers": {
+      "content-security-policy": null,
+      "strict-transport-security": "max-age=63072000",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "permissions-policy": null,
+      "x-frame-options": "DENY"
+    }
+  },
+  "policy": {
+    "source": "https://whitenoise.chat/privacy",
+    "status": 200,
+    "stated": "October 13, 2026",
+    "chars": 45510,
+    "text": "(see 2026-11-04-privacy.txt)"
+  }
+}

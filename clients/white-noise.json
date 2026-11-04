@@ -1,0 +1,8 @@
+{
+  "name": "White Noise",
+  "website": "https://whitenoise.chat",
+  "play": "dev.ipf.whitenoise.android",
+  "repo": "marmot-protocol/whitenoise-android",
+  "privacyPolicy": "https://whitenoise.chat/privacy",
+  "note": "Messenger for Android and iPhone (TestFlight beta) on the Marmot protocol (MLS over Nostr); whitenoise.chat is its website, not a web client. Separate repositories per platform: whitenoise-android, whitenoise-ios, whitenoise-mac, whitenoise-linux."
+}

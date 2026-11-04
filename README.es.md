@@ -18,6 +18,7 @@ Cada ficha pone una junto a otra lo que dicen las tiendas de apps, lo que dice l
 | [Nostr Vault](sheets/nostr-vault.md) | 2026-11-01 |
 | [Primal](sheets/primal.md) | 2026-10-24 |
 | [Quill](sheets/quill.md) | 2026-10-24 |
+| [White Noise](sheets/white-noise.md) | 2026-11-04 |
 
 Las fichas están en inglés. Transparencia: Quill lo hace el autor de Nostr Scrutiny; pasa las mismas comprobaciones.
 

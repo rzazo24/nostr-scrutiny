@@ -18,6 +18,7 @@ Each sheet puts side by side what the app stores say, what the privacy policy sa
 | [Nostr Vault](sheets/nostr-vault.md) | 2026-11-01 |
 | [Primal](sheets/primal.md) | 2026-10-24 |
 | [Quill](sheets/quill.md) | 2026-10-24 |
+| [White Noise](sheets/white-noise.md) | 2026-11-04 |
 
 Disclosure: Quill is made by the author of Nostr Scrutiny; it goes through the same checks.
 
