@@ -57,14 +57,25 @@ The terms of service (dated **2026-10-19**) say, among other things: [Terms](htt
 - The acceptable-use list does not name adult content as such, but the terms say Nostrich "has no tolerance for objectionable content or abusive users". Adult content is banned outright in its Marketplace.
 - Users can mute accounts, words and hashtags; reports go to an email address.
 
+## Moderation: what the code shows
+
+From the published code (commit `d696d78`, 2026-11-03): [spam-rules.ts](https://github.com/nostrichOS/nostrich-client/blob/d696d78bccb9372836c8713aa5f96039467a7039/packages/nostr/src/spam-rules.ts)
+
+- **Three hand-kept lists of accounts:** `SUPPRESSED` ("accounts that do not exist in this client": everything from them is dropped, including notes, reactions, zaps and notifications), `BLOCKED` (kept out of discovery, trending and notifications, and marked as suspect) and `NOT_TRENDING` (kept off the charts only).
+- **In the published code each list holds only a placeholder** (a made-up key with the note "Example entry, replace with a real one"). So the code shows how the lists work, but not who is on them in the apps people install.
+- **A filter on names:** an account whose display name, name or NIP-05 contains a word from a fixed list (such as porn, nsfw, onlyfans, escort or xxx) is left out of the lists Nostrich puts together. Notes tagged #nsfw, #porn or #xxx are never promoted.
+
+
 
 - The Google Play listing says the app collects no data. The privacy policy describes indexes, Activity scores, campaign and payout records, push registrations and server logs. Part of this concerns public Nostr data rather than data taken from the device, which may be why it is not declared in the store; the store label does not mention it either way.
 - The stores name RHXO Technology LLC; the privacy policy names RHXO, Inc. (Delaware) as operator.
+- The lists of hidden accounts in the published code hold only placeholders, so the code alone cannot show which accounts the installed apps hide.
 
 ## What could not be checked
 
 - Whether the apps in the stores are built from the published code (there are no tagged releases).
 - What the servers actually store and for how long, beyond what the policy says.
+- Which accounts are on the hidden-account lists in the apps people install.
 - The iPhone app's privacy label (Apple's API does not return it).
 
 ## Sources
