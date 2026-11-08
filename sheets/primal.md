@@ -1,6 +1,6 @@
 # Primal — Nostr Scrutiny fact sheet
 
-*Checked on 2026-10-24 (updated 2026-10-25). Facts and sources only: no score, no verdict.*
+*Checked on 2026-10-24 (updated 2026-11-08). Facts and sources only: no score, no verdict.*
 
 **What it is:** a Nostr client for the web, iPhone and Android, with a hosted wallet and a paid "Premium" tier. [primal.net](https://primal.net)
 
@@ -45,8 +45,17 @@ Opened as a first-time visitor, with nothing clicked, for 8 seconds:
 - No cookies, 3 entries in the browser's storage, and no security headers such as a Content-Security-Policy.
 - **Android app:** uses Firebase Cloud Messaging (Google) for push notifications, according to its code.
 
+## Moderation: what the terms say
+
+The terms of service (dated **February 19, 2024**) say, among other things: [Terms](https://primal.net/terms)
+
+- Users agree not to share content that is "obscene", including "pornographic material", violent images, hate speech or content harmful to minors.
+- Primal may, "in our sole discretion", suspend or terminate all or part of its services or an account, "with or without reason" and with or without notice.
+- The terms never mention relays, so they do not say how this applies to content stored on relays Primal does not run.
+
 ## Where the sources differ
 
+- **Company:** the terms describe Primal Systems Inc. as "an Ontario corporation"; the website and the policy give Doral, Florida (US).
 - Google Play lists photos, videos, name, email and user IDs as collected; the policy says the mobile apps collect nothing beyond what is published to Nostr and the hosted wallet. The policy is two and a half years older than the current apps.
 
 ## What could not be checked
@@ -61,4 +70,5 @@ Opened as a first-time visitor, with nothing clicked, for 8 seconds:
 - Google Play: https://play.google.com/store/apps/details?id=net.primal.android (and its Data safety page)
 - Repositories: https://github.com/PrimalHQ/primal-web-app, https://github.com/PrimalHQ/primal-android-app, https://github.com/PrimalHQ/primal-ios-app
 - Privacy policy: https://primal.net/privacy (copy of 2026-10-24 in `data/primal/`)
+- Terms of service: https://primal.net/terms (copy of 2026-11-08 in `data/primal/`)
 - Collected data: `data/primal/2026-10-24.json` in the Nostr Scrutiny repository

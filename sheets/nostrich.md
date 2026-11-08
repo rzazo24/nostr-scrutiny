@@ -1,6 +1,6 @@
 # Nostrich — Nostr Scrutiny fact sheet
 
-*Checked on 2026-10-24 (updated 2026-10-28). Facts and sources only: no score, no verdict.*
+*Checked on 2026-10-24 (updated 2026-11-08). Facts and sources only: no score, no verdict.*
 
 **What it is:** a Nostr client for the web, iPhone/iPad, Android and Mac, with a marketplace, chat, "Spaces" and paid zap campaigns. [nostrich.org](https://nostrich.org)
 
@@ -48,7 +48,15 @@ Opened as a first-time visitor, with nothing clicked, for 8 seconds:
 - **WebSocket connections to 8 Nostr services:** relay.primal.net, relay.damus.io, nos.lol, nostr.mom, nostr.oxtr.dev, nostr.bitcoiner.social, directory.yabu.me and profiles.nostr1.com.
 - **Security headers:** no restrictive Content-Security-Policy (only `upgrade-insecure-requests`), no HSTS header on the page; camera and microphone are allowed for the page itself and for `cornychat.com`.
 
-## Where the sources differ
+## Moderation: what the terms say
+
+The terms of service (dated **2026-10-19**) say, among other things: [Terms](https://nostrich.org/terms)
+
+- Nostrich "cannot delete content from relays we do not run"; what it decides is what Nostrich shows and which of its services someone may use, with automated tools and manual review.
+- If it believes someone broke the terms, it may, without notice, hide content or accounts from its trending, discovery, search and suggestion lists, filter spam, stop services it runs for them (push notifications, an @nostrich.org address, campaigns, scheduled posts), and report content to the authorities.
+- The acceptable-use list does not name adult content as such, but the terms say Nostrich "has no tolerance for objectionable content or abusive users". Adult content is banned outright in its Marketplace.
+- Users can mute accounts, words and hashtags; reports go to an email address.
+
 
 - The Google Play listing says the app collects no data. The privacy policy describes indexes, Activity scores, campaign and payout records, push registrations and server logs. Part of this concerns public Nostr data rather than data taken from the device, which may be why it is not declared in the store; the store label does not mention it either way.
 - The stores name RHXO Technology LLC; the privacy policy names RHXO, Inc. (Delaware) as operator.
@@ -62,6 +70,7 @@ Opened as a first-time visitor, with nothing clicked, for 8 seconds:
 ## Sources
 
 - Website and policy: https://nostrich.org, https://nostrich.org/privacy (copy of 2026-10-24 in `data/nostrich/`)
+- Terms of service: https://nostrich.org/terms (copy of 2026-11-08 in `data/nostrich/`)
 - App Store: https://apps.apple.com/us/app/nostrich-nostr-client/id6807898323
 - Google Play: https://play.google.com/store/apps/details?id=org.nostrich.app (and its Data safety page)
 - Repository: https://github.com/nostrichOS/nostrich-client
