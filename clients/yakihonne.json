@@ -1,0 +1,9 @@
+{
+  "name": "YakiHonne",
+  "website": "https://yakihonne.com",
+  "appStore": "6472556189",
+  "play": "com.yakihonne.yakihonne",
+  "repo": "YakiHonne/mobile-app",
+  "privacyPolicy": "https://yakihonne.com/privacy",
+  "note": "Nostr client for iPhone, Android and the web (articles, notes, wallet, smart widgets). Separate repositories for the mobile app (Flutter) and the web app; older ones are archived."
+}
