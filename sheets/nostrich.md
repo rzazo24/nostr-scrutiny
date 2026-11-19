@@ -1,6 +1,6 @@
 # Nostrich — Nostr Scrutiny fact sheet
 
-*Checked on 2026-10-24 (updated 2026-11-08). Facts and sources only: no score, no verdict.*
+*Checked on 2026-10-24 (updated 2026-11-19). Facts and sources only: no score, no verdict.*
 
 **What it is:** a Nostr client for the web, iPhone/iPad, Android and Mac, with a marketplace, chat, "Spaces" and paid zap campaigns. [nostrich.org](https://nostrich.org)
 
@@ -70,6 +70,7 @@ From the published code (commit `d696d78`, 2026-11-03): [spam-rules.ts](https://
 - The Google Play listing says the app collects no data. The privacy policy describes indexes, Activity scores, campaign and payout records, push registrations and server logs. Part of this concerns public Nostr data rather than data taken from the device, which may be why it is not declared in the store; the store label does not mention it either way.
 - The stores name RHXO Technology LLC; the privacy policy names RHXO, Inc. (Delaware) as operator.
 - The lists of hidden accounts in the published code hold only placeholders, so the code alone cannot show which accounts the installed apps hide.
+- **The policy changed without a new date.** The copy of 2026-11-19 still says 2026-10-23 but has a new section, "Open Source Software and Privacy": the published code "may be incomplete, outdated, or different from the software we operate" and "should not be considered a complete representation of our data practices"; the production apps "may include proprietary components [...] not available in our public repositories"; and Nostrich is "not obligated to publish, maintain, or update" its code and may make components proprietary.
 
 ## What could not be checked
 
@@ -80,7 +81,7 @@ From the published code (commit `d696d78`, 2026-11-03): [spam-rules.ts](https://
 
 ## Sources
 
-- Website and policy: https://nostrich.org, https://nostrich.org/privacy (copy of 2026-10-24 in `data/nostrich/`)
+- Website and policy: https://nostrich.org, https://nostrich.org/privacy (copies of 2026-10-24 and 2026-11-19 in `data/nostrich/`)
 - Terms of service: https://nostrich.org/terms (copy of 2026-11-08 in `data/nostrich/`)
 - App Store: https://apps.apple.com/us/app/nostrich-nostr-client/id6807898323
 - Google Play: https://play.google.com/store/apps/details?id=org.nostrich.app (and its Data safety page)

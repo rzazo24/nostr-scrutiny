@@ -1,6 +1,6 @@
 # Nostr Vault — Nostr Scrutiny fact sheet
 
-*Checked on 2026-11-01. Facts and sources only: no score, no verdict.*
+*Checked on 2026-11-01 (updated 2026-11-19). Facts and sources only: no score, no verdict.*
 
 **What it is:** a Nostr client with a Nostr relay of its own built in (the "vault"), for iPhone, iPad, Mac and Android, plus a web app. It grew out of the Haven relay. [nostrvault.app](https://nostrvault.app)
 
@@ -24,10 +24,12 @@
 
 ## Privacy: what the policy says
 
-The policy (dated **2026-10-23**) is unusually detailed. Among other things:
+The policy (dated **2026-11-18**; first read in its 2026-10-23 version) is unusually detailed. Among other things:
 
 - **No analytics, crash reporting, advertising or tracking code, and no push server**: notifications are made on the device.
-- **The developer's relay**, relay.btcforplebs.com, is one of the defaults; it sees the IP address and public key of whoever connects. It can be removed in Settings.
+- **The developer's relay**, relay.btcforplebs.com, is one of the relays recommended to a new account (until 2026-10-23 the policy called it one of the defaults); it sees the IP address and public key of whoever connects. It can be left out or removed in Settings.
+- **Relays (changed 2026-11-18):** posts go only to the relays in the reader's own relay list. A new account is offered a recommended set: relay.btcforplebs.com, relay.damus.io, relay.primal.net, relay.snort.social and nostr-pub.wellorder.net. The apps also read profiles from purplepag.es and index.hzrd149.com, which also gets the text of searches.
+- **A /stats page** on the website shows totals of public posts carrying the Nostr Vault tag, "never names or npubs".
 - **The website** runs behind Cloudflare; the web server keeps a standard request log (IP address, time, page, browser, referrer) for **7 days**, and shared-post links show up in it.
 - **Profile pictures** in the iPhone, Mac and Android apps load through **wsrv.nl**, a third-party image resizer, which can tell whose profiles are looked at. The policy says there is no setting to turn this off yet.
 - **Link previews** are fetched for links on screen in all apps, so a site learns the IP address of people who scroll past its link; no setting to turn this off yet.
@@ -53,7 +55,7 @@ Opened as a first-time visitor (nostrvault.app/vault/), with nothing clicked, fo
 
 ## Sources
 
-- Website and policy: https://nostrvault.app, https://nostrvault.app/privacy.html (copy of 2026-11-01 in `data/nostr-vault/`)
+- Website and policy: https://nostrvault.app, https://nostrvault.app/privacy.html (copies of 2026-11-01 and 2026-11-19 in `data/nostr-vault/`)
 - Web app: https://nostrvault.app/vault/
 - Repository: https://github.com/btcforplebs/nostr-vault (keys: `HavenApp/HavenApp/Services/CredentialStore.swift`, `NostrVault/app/src/main/java/com/nostrvault/data/local/CredentialStore.kt`; signers: `NostrVault/app/src/main/java/com/nostrvault/service/NIP46Service.kt`, `AmberSignerService.kt`, `web-vault/src/signer/nip07.js`)
 - Collected data: `data/nostr-vault/2026-11-01.json` in the Nostr Scrutiny repository
