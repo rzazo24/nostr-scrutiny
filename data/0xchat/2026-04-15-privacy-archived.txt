@@ -1,0 +1,28 @@
+Privacy Policy
+
+0xChat employs cutting-edge security and end-to-end encryption to deliver private messaging services to users worldwide (“Services”). Your private messages are always encrypted, meaning they can never be shared or viewed by anyone other than yourself and the intended recipients.
+
+Information You Provide
+Account Information
+
+When you create a 0xChat account, you register a private key and a public key. This public key is used to provide our Services to you and other 0xChat users. Optionally, you may add other information to your account such as a profile name and profile picture.
+
+Messages & Contacts
+
+0xChat cannot decrypt or access the content of your private messages and contacts. 0xChat queues end-to-end encrypted messages on relays for delivery to devices.
+
+Managing Your Information
+
+You can manage your personal information within 0xChat’s application settings. For instance, you can update your profile information or choose to enable additional privacy features.
+
+Child Sexual Abuse and Exploitation (CSAE) Prevention Policy
+
+0xChat is committed to maintaining user safety and strictly prohibits any form of child sexual abuse and exploitation (CSAE) content or activity.
+
+If users encounter any suspected CSAE content, they can report it through the in-app reporting feature.
+
+We are dedicated to protecting user privacy while complying with applicable laws and regulations to effectively prevent and address CSAE-related activities.
+
+Updates
+
+We will update this Privacy Policy as needed to ensure it remains current, accurate, and as clear as possible. Your continued use of our Services confirms your acceptance of any updated Privacy Policy.

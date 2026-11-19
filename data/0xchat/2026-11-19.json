@@ -1,0 +1,112 @@
+{
+  "client": "0xchat",
+  "collected": "2026-11-19T20:41:48.146Z",
+  "config": {
+    "name": "0xchat",
+    "website": "https://0xchat.com",
+    "appStore": "1637607169",
+    "play": "com.oxchat.nostr",
+    "repo": "0xchat-app/0xchat-app-main",
+    "privacyPolicy": "https://www.0xchat.com/protocols/0xchat_privacy_policy.html",
+    "note": "Private messenger on Nostr (NIP-17 direct messages, groups, calls, Cashu wallet) for iPhone, Android, macOS, Windows and Linux. The protocol code is in separate repositories (0xchat-core, nostr-dart, nostr-mls-package)."
+  },
+  "errors": {},
+  "appStore": {
+    "found": false,
+    "source": "https://apps.apple.com/us/app/id1637607169"
+  },
+  "github": {
+    "found": true,
+    "source": "https://github.com/0xchat-app/0xchat-app-main",
+    "license": "MIT",
+    "archived": false,
+    "created": "2023-08-17T04:05:20Z",
+    "lastPush": "2026-11-11T17:18:29Z",
+    "lastCommit": "2026-11-11T17:18:20Z",
+    "latestRelease": {
+      "tag": "v1.5.6-release",
+      "date": "2026-09-30T12:14:33Z",
+      "url": "https://github.com/0xchat-app/0xchat-app-main/releases/tag/v1.5.6-release"
+    },
+    "stars": 111
+  },
+  "nip89": [],
+  "play": {
+    "found": true,
+    "source": "https://play.google.com/store/apps/details?id=com.oxchat.nostr&hl=en&gl=us",
+    "name": "google_logo Play",
+    "developer": "0xchat Limited",
+    "updated": "Oct 1, 2026",
+    "legalName": "0xchat Limited",
+    "email": "xchat937@gmail.com",
+    "address": "Rm 22 2/F FU TAO BLDG\n98 ARGYLE ST\n旺角\n九龍\nHong Kong",
+    "phone": "+852 5305 0072",
+    "privacyPolicy": "https://www.0xchat.com/protocols/0xchat_privacy_policy.html",
+    "dataSafety": {
+      "source": "https://play.google.com/store/apps/datasafety?id=com.oxchat.nostr&hl=en&gl=us",
+      "text": [
+        "google_logo Play",
+        "Games",
+        "Apps",
+        "Movies & TV",
+        "Books",
+        "Kids",
+        "Shop devices",
+        "search",
+        "help_outline",
+        "0xchat",
+        "0xchat Limited",
+        "privacy_tip",
+        "The developer has provided this information about how this app collects, shares, and handles your data",
+        "Data safety",
+        "The developer says that this app doesn't collect or share any user data. Learn more about data safety",
+        "No data shared with third parties",
+        "The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.",
+        "No data collected",
+        "The developer says this app doesn’t collect user data",
+        "Google Play",
+        "Play Pass",
+        "Play Points",
+        "Gift cards",
+        "Shop devices",
+        "Redeem",
+        "Refund policy",
+        "Kids & family",
+        "Parent Guide",
+        "Family sharing",
+        "Terms of Service",
+        "Privacy",
+        "About Google Play",
+        "Developers",
+        "Google Store",
+        "United States (English)"
+      ]
+    }
+  },
+  "web": {
+    "source": "https://0xchat.com",
+    "finalUrl": "https://0xchat.com/",
+    "title": "0xchat⚡️ - Secure Chat App Built on Nostr Protocol",
+    "thirdParty": [],
+    "websockets": [],
+    "firstPartyHosts": [
+      "0xchat.com"
+    ],
+    "cookies": [],
+    "localStorageKeys": [],
+    "headers": {
+      "content-security-policy": null,
+      "strict-transport-security": null,
+      "referrer-policy": null,
+      "permissions-policy": null,
+      "x-frame-options": null
+    }
+  },
+  "policy": {
+    "source": "https://www.0xchat.com/protocols/0xchat_privacy_policy.html",
+    "status": 200,
+    "stated": null,
+    "chars": 0,
+    "text": ""
+  }
+}

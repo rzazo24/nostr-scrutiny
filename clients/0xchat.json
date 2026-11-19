@@ -1,0 +1,9 @@
+{
+  "name": "0xchat",
+  "website": "https://0xchat.com",
+  "appStore": "1637607169",
+  "play": "com.oxchat.nostr",
+  "repo": "0xchat-app/0xchat-app-main",
+  "privacyPolicy": "https://www.0xchat.com/protocols/0xchat_privacy_policy.html",
+  "note": "Private messenger on Nostr (NIP-17 direct messages, groups, calls, Cashu wallet) for iPhone, Android, macOS, Windows and Linux. The protocol code is in separate repositories (0xchat-core, nostr-dart, nostr-mls-package)."
+}
