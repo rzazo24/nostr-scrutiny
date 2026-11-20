@@ -1,6 +1,6 @@
 # T-Bone — Nostr Scrutiny fact sheet
 
-*Checked on 2026-11-20. Facts and sources only: no score, no verdict.*
+*Checked on 2026-11-20 (corrected the same day). Facts and sources only: no score, no verdict.*
 
 **What it is:** a Nostr client for Android only, with an encrypted "toolbox" on the side (private notes, checklists, calendar, voice recorder). Package `social.tbone.fork`. Distributed through **Zapstore** and **GitHub releases**, not Google Play. [Repository](https://github.com/toddsmith456/T-Bone-)
 
@@ -33,8 +33,9 @@ The privacy document is part of the repository and calls itself "a binding rule 
 - **No Google Play Services, Firebase or tracking library** was found in the build files. Google libraries present are offline ones (Hilt, ZXing for QR codes, LiteRT 1.4.2 for the optional image filter), as the policy lists.
 - **Permissions:** internet, notifications, microphone (voice recorder), exact alarms (calendar), starting at boot, ignoring battery optimisation, installing packages (for updates) and storage. Bluetooth, nearby-Wi-Fi and UWB permissions that libraries would add are explicitly removed. No location or contacts permission. [AndroidManifest.xml](https://github.com/toddsmith456/T-Bone-/blob/b51d324/app/src/main/AndroidManifest.xml)
 - **Update checks:** release builds ask GitHub's API for the latest release when the app starts and then every 24 hours, so GitHub sees the IP address (or the Tor exit, with Tor on). No setting to turn this off was found. The update centre can download and install the APK after checking its signature and SHA-256. [UpdateManager.kt](https://github.com/toddsmith456/T-Bone-/blob/b51d324/app/src/main/kotlin/social/tbone/updates/UpdateManager.kt)
-- **Followers lists:** to show who follows an account, the app also asks **Primal's** HTTP API (`cache2.primal.net` / `primal.net`) for that account's followers, so Primal sees whose followers are looked up. [FollowerListRepository.kt](https://github.com/toddsmith456/T-Bone-/blob/b51d324/app/src/main/kotlin/social/tbone/lists/FollowerListRepository.kt)
-- Both calls, like image loading, go through Tor when Tor/Orbot routing is turned on.
+- **Your followers (off by default):** the list of who follows your own account is a feature you turn on yourself. Turning it on shows a warning that it asks **Primal's** cache (`cache2.primal.net`, `primal.net` and relay.primal.net) as well as relays, and that "Primal and queried relays receive your pubkey and may log requests". [FollowerListRepository.kt](https://github.com/toddsmith456/T-Bone-/blob/b51d324/app/src/main/kotlin/social/tbone/lists/FollowerListRepository.kt), [FollowListsScreen.kt](https://github.com/toddsmith456/T-Bone-/blob/b51d324/app/src/main/kotlin/social/tbone/ui/lists/FollowListsScreen.kt)
+  - *Correction (2026-11-20): the first version of this sheet said the followers view asked Primal for any account and listed it as a contradiction with the policy. It is off by default, warns before it is turned on, and only looks up the reader's own followers. Pointed out by the developer.*
+- The update check and the followers lookup, like image loading, go through Tor when Tor/Orbot routing is turned on.
 - **Default relays** for an account without a relay list: relay.damus.io, relay.primal.net, nos.lol and relay.nostr.band (which did not answer when tried on 2026-11-20). [Tunables.kt](https://github.com/toddsmith456/T-Bone-/blob/b51d324/app/src/main/kotlin/social/tbone/Tunables.kt)
 - **Optional AI image filter:** the models are downloaded from the project's own GitHub releases only when the user asks, checked against fixed SHA-256 hashes, and run on the device.
 - **Notifications** are in-app only, with no push server.
@@ -42,7 +43,6 @@ The privacy document is part of the repository and calls itself "a binding rule 
 ## Where the sources differ
 
 - **"No update pings":** the policy rules them out, but release builds check GitHub for a new version at every start and every 24 hours.
-- **"User-chosen" servers only:** the followers view asks Primal's API, which the user does not choose.
 
 ## What could not be checked
 
