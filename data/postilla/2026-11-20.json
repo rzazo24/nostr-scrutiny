@@ -1,0 +1,26 @@
+{
+  "client": "Postilla",
+  "collected": "2026-11-20T15:30:10.409Z",
+  "config": {
+    "name": "Postilla",
+    "repo": "isolabellart/postilla-android",
+    "note": "Android-only Nostr client (application id com.isolabellart.darkwispenhanced), distributed through Zapstore and GitHub releases. A downstream fork of Dark Wisp, itself a fork of Wisp. No website and no privacy policy were found: the repository is the home page."
+  },
+  "errors": {},
+  "github": {
+    "found": true,
+    "source": "https://github.com/isolabellart/postilla-android",
+    "license": "MIT",
+    "archived": false,
+    "created": "2026-11-07T05:44:35Z",
+    "lastPush": "2026-11-20T15:29:54Z",
+    "lastCommit": "2026-11-19T19:48:28Z",
+    "latestRelease": {
+      "tag": "v1.0.42",
+      "date": "2026-11-20T09:53:50Z",
+      "url": "https://github.com/isolabellart/postilla-android/releases/tag/v1.0.42"
+    },
+    "stars": 1
+  },
+  "nip89": []
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Postilla",
+  "repo": "isolabellart/postilla-android",
+  "note": "Android-only Nostr client (application id com.isolabellart.darkwispenhanced), distributed through Zapstore and GitHub releases. A downstream fork of Dark Wisp, itself a fork of Wisp. No website and no privacy policy were found: the repository is the home page."
+}
