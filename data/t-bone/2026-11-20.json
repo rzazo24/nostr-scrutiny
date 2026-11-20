@@ -1,0 +1,34 @@
+{
+  "client": "T-Bone",
+  "collected": "2026-11-20T10:48:43.895Z",
+  "config": {
+    "name": "T-Bone",
+    "repo": "toddsmith456/T-Bone-",
+    "privacyPolicy": "https://github.com/toddsmith456/T-Bone-/blob/main/docs/PRIVACY.md",
+    "note": "Android-only Nostr client (package social.tbone.fork), distributed through Zapstore and GitHub releases, not Google Play. A fork of T-Bone (social.tbone), itself derived from Bony. No website: the repository is the home page."
+  },
+  "errors": {},
+  "github": {
+    "found": true,
+    "source": "https://github.com/toddsmith456/T-Bone-",
+    "license": "MIT",
+    "archived": false,
+    "created": "2026-09-08T01:44:51Z",
+    "lastPush": "2026-11-20T07:59:07Z",
+    "lastCommit": "2026-11-19T08:14:55Z",
+    "latestRelease": {
+      "tag": "v0.6.3",
+      "date": "2026-11-19T08:30:12Z",
+      "url": "https://github.com/toddsmith456/T-Bone-/releases/tag/v0.6.3"
+    },
+    "stars": 1
+  },
+  "nip89": [],
+  "policy": {
+    "source": "https://github.com/toddsmith456/T-Bone-/blob/main/docs/PRIVACY.md",
+    "status": 200,
+    "stated": null,
+    "chars": 5635,
+    "text": "(see 2026-11-20-privacy.txt)"
+  }
+}

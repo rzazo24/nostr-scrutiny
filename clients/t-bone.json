@@ -1,0 +1,6 @@
+{
+  "name": "T-Bone",
+  "repo": "toddsmith456/T-Bone-",
+  "privacyPolicy": "https://github.com/toddsmith456/T-Bone-/blob/main/docs/PRIVACY.md",
+  "note": "Android-only Nostr client (package social.tbone.fork), distributed through Zapstore and GitHub releases, not Google Play. A fork of T-Bone (social.tbone), itself derived from Bony. No website: the repository is the home page."
+}
