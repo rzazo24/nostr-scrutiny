@@ -1,0 +1,234 @@
+{
+  "client": "Ditto",
+  "collected": "2026-11-22T18:07:53.876Z",
+  "config": {
+    "name": "Ditto",
+    "website": "https://ditto.pub",
+    "appStore": "6761851821",
+    "play": "pub.ditto.app",
+    "privacyPolicy": "https://ditto.pub/privacy",
+    "note": "Nostr client for iPhone, Android and the web (ditto.pub), by Soapbox Technology LLC. Code on GitLab (gitlab.com/soapbox-pub/ditto), not GitHub, so the repository is checked by hand. Runs relay.ditto.pub."
+  },
+  "errors": {},
+  "appStore": {
+    "found": true,
+    "source": "https://apps.apple.com/us/app/ditto-fun-social-media/id6761851821?uo=4",
+    "name": "Ditto: Fun Social Media",
+    "seller": "Soapbox Technology LLC",
+    "developer": "Soapbox Technology LLC",
+    "sellerUrl": "https://about.ditto.pub/",
+    "version": "2.46.5",
+    "versionDate": "2026-11-20T21:31:19Z",
+    "firstRelease": "2026-04-15T07:00:00Z",
+    "rating": 4.84615,
+    "ratings": 26
+  },
+  "nip89": [],
+  "play": {
+    "found": true,
+    "source": "https://play.google.com/store/apps/details?id=pub.ditto.app&hl=en&gl=us",
+    "name": "google_logo Play",
+    "developer": "Soapbox Technology LLC",
+    "updated": "Nov 20, 2026",
+    "legalName": "Soapbox Technology LLC",
+    "email": "contact@soapbox.pub",
+    "address": "25 1ST Ave SW Ste A\nWatertown, SD 57201-3507\nUnited States",
+    "phone": "+1 281-528-3477",
+    "privacyPolicy": "https://ditto.pub/privacy",
+    "dataSafety": {
+      "source": "https://play.google.com/store/apps/datasafety?id=pub.ditto.app&hl=en&gl=us",
+      "text": [
+        "google_logo Play",
+        "Games",
+        "Apps",
+        "Movies & TV",
+        "Books",
+        "Kids",
+        "Shop devices",
+        "search",
+        "help_outline",
+        "Ditto",
+        "Soapbox Technology LLC",
+        "privacy_tip",
+        "The developer has provided this information about how this app collects, shares, and handles your data",
+        "Data safety",
+        "Here's more information the developer has provided about the kinds of data this app may collect and share, and security practices the app may follow. Data practices may vary based on your app version, use, region, and age. Learn more",
+        "No data shared with third parties",
+        "The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.",
+        "Data collected",
+        "Data this app may collect",
+        "App info and performance",
+        "Crash logs",
+        "expand_more",
+        "App activity",
+        "App interactions",
+        "expand_more",
+        "Security practices",
+        "Data is encrypted in transit",
+        "Your data is transferred over a secure connection",
+        "You can request that data be deleted",
+        "The developer provides a way for you to request that your data be deleted",
+        "info",
+        "For more information about collected and shared data, see the developer's privacy policy",
+        "Google Play"
+      ]
+    }
+  },
+  "web": {
+    "source": "https://ditto.pub",
+    "finalUrl": "https://ditto.pub/",
+    "title": "Ditto",
+    "thirdParty": [
+      {
+        "host": "bitcoin-cats.ca",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "blossom.primal.net",
+        "requests": 9,
+        "thirdParty": true
+      },
+      {
+        "host": "en.wikipedia.org",
+        "requests": 4,
+        "thirdParty": true
+      },
+      {
+        "host": "i.nostr.build",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "jimmysong.org",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "jskitty.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "liminal.blossom.band",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "mailstr.app",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "media.divine.video",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "nostr4.social",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "plume.website",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "pub-a980155e3b5c4b4191605c0b9c7d77cf.r2.dev",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "r2a.primal.net",
+        "requests": 9,
+        "thirdParty": true
+      },
+      {
+        "host": "raw.githubusercontent.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "relay.utxo.one",
+        "requests": 2,
+        "thirdParty": true
+      },
+      {
+        "host": "spatia-arcana.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "thumb.wikimedia.org",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "upload.wikimedia.org",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "www.wikidata.org",
+        "requests": 1,
+        "thirdParty": true
+      }
+    ],
+    "websockets": [
+      {
+        "host": "relay.ditto.pub",
+        "thirdParty": false
+      },
+      {
+        "host": "relay.dreamith.to",
+        "thirdParty": true
+      }
+    ],
+    "firstPartyHosts": [
+      "api.ditto.pub",
+      "blossom.ditto.pub",
+      "ditto.pub"
+    ],
+    "cookies": [
+      {
+        "name": "WMF-Uniq",
+        "domain": ".upload.wikimedia.org",
+        "thirdParty": true
+      },
+      {
+        "name": "NetworkProbeLimit",
+        "domain": "thumb.wikimedia.org",
+        "thirdParty": true
+      },
+      {
+        "name": "WMF-Uniq",
+        "domain": ".thumb.wikimedia.org",
+        "thirdParty": true
+      }
+    ],
+    "localStorageKeys": [
+      "audio-minibar-position",
+      "ditto-push-device-key",
+      "ditto-push-vapid",
+      "ditto:app-version",
+      "ditto:feedSnapshot:xul8oj",
+      "ditto:feedSnapshots",
+      "nostr:login"
+    ],
+    "headers": {
+      "content-security-policy": "default-src 'none'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; child-src 'self' blob:; style-src 'self' 'unsafe-inline'; frame-src 'self' https:; object-src https:; font-src 'self' https: data:; base-uri 'self'; form-action 'self'; manifest-src 'self'; connect-src 'self' blob: https: wss:; img-src 'self' data: blob: https:; media-src 'self' blob: https:",
+      "strict-transport-security": null,
+      "referrer-policy": null,
+      "permissions-policy": null,
+      "x-frame-options": null
+    }
+  },
+  "policy": {
+    "source": "https://ditto.pub/privacy",
+    "status": 200,
+    "stated": "March 18, 2026",
+    "chars": 4370,
+    "text": "(see 2026-11-22-privacy.txt)"
+  }
+}

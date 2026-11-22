@@ -1,0 +1,8 @@
+{
+  "name": "Ditto",
+  "website": "https://ditto.pub",
+  "appStore": "6761851821",
+  "play": "pub.ditto.app",
+  "privacyPolicy": "https://ditto.pub/privacy",
+  "note": "Nostr client for iPhone, Android and the web (ditto.pub), by Soapbox Technology LLC. Code on GitLab (gitlab.com/soapbox-pub/ditto), not GitHub, so the repository is checked by hand. Runs relay.ditto.pub."
+}
