@@ -1,0 +1,182 @@
+{
+  "client": "Divine",
+  "collected": "2026-11-22T10:22:15.341Z",
+  "config": {
+    "name": "Divine",
+    "website": "https://divine.video",
+    "appStore": "6747959501",
+    "play": "co.openvine.app",
+    "repo": "divinevideo/divine-mobile",
+    "privacyPolicy": "https://divine.video/privacy",
+    "note": "Short-video app on Nostr (a revival of Vine) for iPhone, Android and the web (divine.video is also a web client). Run by Verse Communications, Inc. Several open-source repositories: divine-mobile, divine-web, divine-blossom (video hosting), keycast (key management), moderation and push services."
+  },
+  "errors": {},
+  "appStore": {
+    "found": true,
+    "source": "https://apps.apple.com/us/app/divine-video/id6747959501?uo=4",
+    "name": "Divine Video",
+    "seller": "Verse Communications, Inc.",
+    "developer": "Verse Communications Inc",
+    "sellerUrl": "https://divine.video",
+    "version": "1.0.31",
+    "versionDate": "2026-11-19T11:19:40Z",
+    "firstRelease": "2026-04-29T07:00:00Z",
+    "rating": 4.22905,
+    "ratings": 179
+  },
+  "github": {
+    "found": true,
+    "source": "https://github.com/divinevideo/divine-mobile",
+    "license": "MPL-2.0",
+    "archived": false,
+    "created": "2025-06-15T05:06:40Z",
+    "lastPush": "2026-11-22T10:12:28Z",
+    "lastCommit": "2026-11-22T08:39:14Z",
+    "latestRelease": {
+      "tag": "1.0.29",
+      "date": "2026-11-16T21:15:26Z",
+      "url": "https://github.com/divinevideo/divine-mobile/releases/tag/1.0.29"
+    },
+    "stars": 263
+  },
+  "nip89": [],
+  "play": {
+    "found": true,
+    "source": "https://play.google.com/store/apps/details?id=co.openvine.app&hl=en&gl=us",
+    "name": "google_logo Play",
+    "developer": "Verse Communication PBC",
+    "updated": "Nov 16, 2026",
+    "legalName": "Verse Communications, Inc.",
+    "email": "rabble@verse.app",
+    "address": "3903 SE Ivon St\nPortland, OR 97202-1650\nUnited States",
+    "phone": "+1 503-799-5321",
+    "privacyPolicy": "https://divine.video/privacy",
+    "dataSafety": {
+      "source": "https://play.google.com/store/apps/datasafety?id=co.openvine.app&hl=en&gl=us",
+      "text": [
+        "google_logo Play",
+        "Games",
+        "Apps",
+        "Movies & TV",
+        "Books",
+        "Kids",
+        "Shop devices",
+        "search",
+        "help_outline",
+        "Divine",
+        "Verse Communication PBC",
+        "privacy_tip",
+        "The developer has provided this information about how this app collects, shares, and handles your data",
+        "Data safety",
+        "The developer says that this app doesn't collect or share any user data. Learn more about data safety",
+        "No data shared with third parties",
+        "The developer says this app doesn't share user data with other companies or organizations. Learn more about how developers declare sharing.",
+        "No data collected",
+        "The developer says this app doesn’t collect user data",
+        "Google Play",
+        "Play Pass",
+        "Play Points",
+        "Gift cards",
+        "Shop devices",
+        "Redeem",
+        "Refund policy",
+        "Kids & family",
+        "Parent Guide",
+        "Family sharing",
+        "Terms of Service",
+        "Privacy",
+        "About Google Play",
+        "Developers",
+        "Google Store",
+        "United States (English)"
+      ]
+    }
+  },
+  "web": {
+    "source": "https://divine.video",
+    "finalUrl": "https://divine.video/discovery/classics",
+    "title": "Divine: Watch Classic Vines and New Short Videos",
+    "thirdParty": [
+      {
+        "host": "fonts.googleapis.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "fonts.gstatic.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "storage.googleapis.com",
+        "requests": 6,
+        "thirdParty": true
+      },
+      {
+        "host": "v.cdn.vine.co",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "vines.s3.amazonaws.com",
+        "requests": 1,
+        "thirdParty": true
+      },
+      {
+        "host": "web.archive.org",
+        "requests": 2,
+        "thirdParty": true
+      }
+    ],
+    "websockets": [
+      {
+        "host": "purplepag.es",
+        "thirdParty": true
+      },
+      {
+        "host": "relay.damus.io",
+        "thirdParty": true
+      },
+      {
+        "host": "relay.divine.video",
+        "thirdParty": false
+      },
+      {
+        "host": "relay.primal.net",
+        "thirdParty": true
+      }
+    ],
+    "firstPartyHosts": [
+      "api.divine.video",
+      "cdn.divine.video",
+      "divine.video",
+      "kingbach.divine.video",
+      "kurtisconner.divine.video",
+      "loganpaul.divine.video",
+      "media.divine.video",
+      "relay.divine.video",
+      "rudymancuso.divine.video",
+      "tharealversace.divine.video",
+      "thomassanders.divine.video",
+      "zachking.divine.video"
+    ],
+    "cookies": [],
+    "localStorageKeys": [
+      "nostr:login"
+    ],
+    "headers": {
+      "content-security-policy": null,
+      "strict-transport-security": null,
+      "referrer-policy": null,
+      "permissions-policy": null,
+      "x-frame-options": null
+    }
+  },
+  "policy": {
+    "source": "https://divine.video/privacy",
+    "status": 200,
+    "stated": "November 5, 2026",
+    "chars": 12928,
+    "text": "(see 2026-11-22-privacy.txt)"
+  }
+}

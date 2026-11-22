@@ -1,0 +1,215 @@
+About
+Blog
+FAQ
+In the News
+Merch
+Try it
+Privacy Policy
+
+Last Updated: November 5, 2026
+
+1. Overview
+
+This Privacy Policy explains how Verse Communications PBC dba Divine (“Divine,” “we,” “us,” or “our”) collects, uses, and discloses information in connection with the Divine™ app (the “Service”).
+
+Divine operates as an interface to the decentralized Nostr protocol. As a result, information you publish through the Service may be distributed across independent relays and systems that Divine does not own or control. This Privacy Policy applies only to information processed through Divine-controlled infrastructure.
+
+For purposes of applicable data protection law, Verse Communications PBC acts as the data controller for information processed through Divine-controlled infrastructure, except where otherwise specified.
+
+2. Definitions
+
+“Divine-controlled infrastructure” means websites, apps, relays, media storage, APIs, and other systems owned or controlled by Divine.
+
+“Externally hosted content” means any video, image, audio file, or other media referenced within a Nostr event that is stored on third-party infrastructure.
+
+“Nostr” means the decentralized protocol known as “Notes and Other Stuff Transmitted by Relays,” which enables users to publish, retrieve, and verify content using cryptographic keypairs and signed messages.
+
+“Nostr event” means a cryptographically signed data object published using the Nostr protocol. A Nostr event may include a public key, timestamp, event kind, content, tags, metadata, and a digital signature. Once broadcast, Nostr events may be stored or replicated across multiple independent relays, including relays Divine does not own or control.
+
+“Nostr keypair” means the cryptographic public/private keypair used to create, sign, and authenticate Nostr events. The public key functions as a user identifier across the Nostr protocol, and the private key is required to sign events and prove authorship.
+
+“Relay” means any independently operated server implementing the Nostr protocol for receiving, storing, indexing, or redistributing Nostr events. Unless expressly stated otherwise, relays are not operated by Divine.
+
+“User content” means any Nostr event, media, metadata, username, profile information, or other material submitted, published, uploaded, linked, or otherwise made available by a user through the Service, whether hosted by Divine or externally.
+
+3. Non-Custodial and Custodial Use
+
+Divine primarily operates as a non-custodial interface for interacting with Nostr events.
+
+If you use a self-custodied Nostr keypair, Divine does not store your private key and does not maintain a traditional account on your behalf. Your interactions with the Service are associated with your public key and the Nostr events you publish or retrieve.
+
+Divine may offer optional features, such as Divine Login, that involve server-side encryption, storage, backup, recovery, or management of signing material. If you use those features, Divine may process and store encrypted key material and related account data necessary to authenticate you and carry out actions you authorize. Additional disclosures or terms may apply to those features.
+
+4. Information We Collect
+
+Divine may collect and process information in several categories. The categories of personal information collected may include identifiers (such as public keys or IP addresses), internet or network activity information, and user-generated content.
+
+We collect information you provide directly, including Nostr events, profile metadata, communications with Divine, and reports submitted through the Service.
+
+We collect information automatically when you use the Service, including device and browser information, IP address, approximate location derived from network signals, and logs relating to interactions with Divine-controlled infrastructure.
+
+Divine uses Shorebird to check for and deliver app updates. When the app checks for an update, Shorebird receives a random identifier unique to that app installation, the app, release, and patch versions, update channel, platform, device architecture, and patch download or installation status. This information is used to deliver updates, diagnose update failures, and produce aggregated update and active-install analytics. The installation identifier is not an advertising identifier and is not used for advertising or cross-app tracking.
+
+When you're signed in, the app tells Divine when you open and close it, and checks in once a minute while it's open. We use this only to time notifications. Whether the app is open right now is kept for three minutes. Each app session's latest check-in, including when it happened, its last reported open or closed state, and visit and sequence numbers, is kept for seven days. Visit-related notification state for your account is kept until 90 days after its last accepted check-in. It isn't shown to anyone.
+
+The notification activity disclosure in Section 4 is effective November 5, 2026.
+
+We may also collect and generate information for safety and moderation purposes, including reports, enforcement actions, and identifiers or hashes used to detect abuse, fraud, or prohibited content.
+
+Providing certain information may be necessary to use specific features of the Service. If you choose not to provide such information, some features may not function as intended.
+
+5. Public, Divine-Controlled, and Third-Party Data
+
+Because the Service operates on Nostr, it is important to distinguish between different categories of data.
+
+Nostr events are generally public and may be stored, replicated, indexed, or displayed by independent relays and clients. Once published, such data may remain available outside Divine-controlled infrastructure.
+
+Divine-controlled data includes information processed or stored on systems owned or operated by Divine, such as logs, moderation records, and account-related data associated with optional features like Divine Login.
+
+The Service may also display or link to externally hosted content stored on third-party servers, relays, archives, or storage providers. Divine does not own or control those systems and is not responsible for their handling of data.
+
+6. How We Use Information
+
+Divine processes information as reasonably necessary to operate, secure, maintain, and improve the Service.
+
+This includes rendering and transmitting Nostr events, authenticating users, caching or indexing content, enforcing Safety Standards, detecting and preventing abuse or illegal activity, responding to user inquiries, and complying with applicable law.
+
+Divine may also use information to maintain the reliability, performance, and security of the Service, including through logging, monitoring, and troubleshooting activities.
+
+7. Legal Bases for Processing
+
+Where applicable under data protection law, Divine processes personal data on the following legal bases:
+
+To operate and provide the Service, including rendering and transmitting Nostr events: legitimate interests
+To authenticate users and enable account-related functionality, including Divine Login: contractual necessity and legitimate interests
+To enforce Safety Standards, prevent abuse, and maintain security: legitimate interests and legal obligations
+To comply with applicable law, including responding to lawful requests: legal obligations
+Where required, based on user consent: consent
+
+Where Divine relies on legitimate interests, it does so after considering the potential impact on users and their rights.
+
+8. Disclosure of Information
+
+Divine may disclose information to service providers that process data on our behalf and under our instructions to support the operation of Divine-controlled infrastructure, to comply with legal obligations or lawful requests, to protect the rights, safety, and integrity of the Service and its users, or as otherwise permitted by law.
+
+Because the Service interacts with decentralized systems, information contained in Nostr events may be accessible to independent relays, clients, and third-party systems outside Divine’s control.
+
+9. International Data Transfers
+
+Divine operates globally, and information may be processed in jurisdictions outside your country of residence, including the United States.
+
+Where required, Divine relies on appropriate safeguards for international data transfers, such as standard contractual clauses or other lawful mechanisms.
+
+10. Data Retention
+
+Divine retains information for as long as reasonably necessary to operate the Service, comply with legal obligations, enforce its Terms and Safety Standards, and prevent abuse.
+
+Retention periods may vary depending on the nature of the data, including logs, moderation records, reports, and backup data. Some information may be retained for longer periods where required for legal, safety, or dispute-resolution purposes.
+
+Divine has no obligation to retain user content and may remove or cease storing or displaying content at its discretion, subject to applicable law.
+
+11. Your Rights
+
+Depending on your jurisdiction, you may have the right to:
+
+Access personal data held about you
+Request correction of inaccurate or incomplete data
+Request deletion of personal data
+Request restriction of processing
+Object to processing based on legitimate interests
+Request data portability
+Withdraw consent where processing is based on consent
+
+These rights may be limited in cases involving legal obligations, security considerations, or the decentralized nature of the Service.
+
+You also have the right to lodge a complaint with a supervisory authority in your jurisdiction if you believe your data has been processed in violation of applicable law.
+
+Requests may be submitted to contact@divine.video.
+
+12. Automated Decision Making
+
+Divine does not engage in automated decision-making or profiling that produces legal or similarly significant effects on users within the meaning of applicable data protection law.
+
+13. Security
+
+Divine implements reasonable technical and organizational measures to protect information processed on Divine-controlled infrastructure. However, no system is completely secure, and Divine does not guarantee that information will be free from unauthorized access, loss, or alteration.
+
+14. Children
+
+Individuals under the age of 16 may use the Service only with the involvement and consent of a parent or legal guardian, where permitted by applicable law. If Divine becomes aware that such consent is not present where required, Divine may restrict or terminate access and delete associated data as required or permitted by applicable law.
+
+15. Decentralized System Notice
+
+Because the Service interacts with decentralized networks, content may persist on independent relays, archives, or third-party systems even after it is removed from Divine-controlled infrastructure. Divine cannot guarantee deletion or control of such content.
+
+16. Changes to This Policy
+
+Divine may update this Privacy Policy from time to time. Updated versions will be posted with a revised “Last Updated” date. Unless a different effective date is stated, changes will become effective 30 days after posting. Your continued use of the Service after the effective date of the updated Privacy Policy constitutes your acceptance of it.
+
+17. California Privacy Rights
+
+If you are a California resident, you may have certain rights under the California Consumer Privacy Act (CCPA), as amended by the California Privacy Rights Act (CPRA), subject to applicable thresholds and limitations.
+
+These rights may include the ability to request access to categories and specific pieces of personal information we have collected about you, request deletion of personal information subject to certain exceptions, request correction of inaccurate personal information, and opt out of the sale or sharing of personal information where applicable.
+
+Divine does not sell personal information in the traditional sense and does not share personal information for cross-context behavioral advertising.
+
+You may submit requests related to your personal information by contacting contact@divine.video. Divine will respond in accordance with applicable law.
+
+Because the Service interacts with decentralized systems, some information may not be within Divine’s control and may not be capable of being deleted or modified by Divine.
+
+18. Contact
+
+For questions about this Privacy Policy, contact:
+
+Verse Communications PBC dba Divine
+
+9450 SW Gemini Dr., PMB 21667
+
+Beaverton, OR 97008
+
+contact@divine.video
+
+Divine Inspiration
+
+Divine is live in the App Store and on Google Play. Want our news in your inbox? Sign up here.
+
+Sign up for email updates
+Made with Love
+•
+No AI Slop
+About
+•
+FAQ
+•
+Our Mission
+•
+News
+•
+Media Resources
+•
+Blog
+•
+Merch
+Help
+•
+Terms of Service
+•
+Privacy
+•
+Safety
+•
+Family Resources
+•
+Kids Policy
+•
+Account Portability
+•
+Delete Account
+•
+DMCA & Copyright
+•
+Open Source
+•
+Donate
+Build: 2026-11-22

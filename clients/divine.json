@@ -1,0 +1,9 @@
+{
+  "name": "Divine",
+  "website": "https://divine.video",
+  "appStore": "6747959501",
+  "play": "co.openvine.app",
+  "repo": "divinevideo/divine-mobile",
+  "privacyPolicy": "https://divine.video/privacy",
+  "note": "Short-video app on Nostr (a revival of Vine) for iPhone, Android and the web (divine.video is also a web client). Run by Verse Communications, Inc. Several open-source repositories: divine-mobile, divine-web, divine-blossom (video hosting), keycast (key management), moderation and push services."
+}
