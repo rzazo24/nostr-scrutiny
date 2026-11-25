@@ -1,0 +1,8 @@
+{
+  "name": "Nostur",
+  "website": "https://nostur.com",
+  "appStore": "1672780508",
+  "repo": "nostur-com/nostur-ios-public",
+  "privacyPolicy": "https://nostur.com/privacy.txt",
+  "note": "Nostr client for iPhone, iPad and Mac by one developer (Fabian Lachman). The privacy policy is a plain-text file linked from the App Store listing; the website does not link it."
+}

@@ -1,0 +1,96 @@
+{
+  "client": "Nostur",
+  "collected": "2026-11-25T22:09:01.588Z",
+  "config": {
+    "name": "Nostur",
+    "website": "https://nostur.com",
+    "appStore": "1672780508",
+    "repo": "nostur-com/nostur-ios-public",
+    "privacyPolicy": "https://nostur.com/privacy.txt",
+    "note": "Nostr client for iPhone, iPad and Mac by one developer (Fabian Lachman). The privacy policy is a plain-text file linked from the App Store listing; the website does not link it."
+  },
+  "errors": {},
+  "appStore": {
+    "found": true,
+    "source": "https://apps.apple.com/us/app/nostur-nostr-client/id1672780508?uo=4",
+    "name": "Nostur - Nostr client",
+    "seller": "Fabian Lachman",
+    "developer": "Fabian Lachman",
+    "sellerUrl": "https://nostur.com",
+    "version": "1.35.0",
+    "versionDate": "2026-11-08T01:29:28Z",
+    "firstRelease": "2023-05-29T07:00:00Z",
+    "rating": 4.74074,
+    "ratings": 27
+  },
+  "github": {
+    "found": true,
+    "source": "https://github.com/nostur-com/nostur-ios-public",
+    "license": "GPL-3.0",
+    "archived": false,
+    "created": "2023-07-13T16:46:53Z",
+    "lastPush": "2026-11-25T22:06:36Z",
+    "lastCommit": "2026-11-25T22:06:13Z",
+    "latestRelease": {
+      "tag": "1.35.0",
+      "date": "2026-11-08T13:08:10Z",
+      "url": "https://github.com/nostur-com/nostur-ios-public/releases/tag/1.35.0"
+    },
+    "stars": 101
+  },
+  "nip89": [
+    {
+      "id": "b9d0eaff2f166ecf919d5bb8fa72958867f5b9803ace27cc57ad6b22bf9e3039",
+      "pubkey": "9be0be0fc079548233231614e4e1efc9f28b0db398011efeecf05fe570e5dd33",
+      "created": "2025-07-29T17:43:46.000Z",
+      "name": "Nostur",
+      "website": "https://nostur.com",
+      "handles": [
+        "1",
+        "20",
+        "1111",
+        "1222",
+        "1244",
+        "6",
+        "1063",
+        "9802",
+        "39089",
+        "30023",
+        "30311"
+      ],
+      "platforms": [
+        "ios",
+        "ios",
+        "ios",
+        "ios",
+        "ios"
+      ]
+    }
+  ],
+  "web": {
+    "source": "https://nostur.com",
+    "finalUrl": "https://nostur.com/",
+    "title": "Nostur - Built for real connection.",
+    "thirdParty": [],
+    "websockets": [],
+    "firstPartyHosts": [
+      "nostur.com"
+    ],
+    "cookies": [],
+    "localStorageKeys": [],
+    "headers": {
+      "content-security-policy": null,
+      "strict-transport-security": null,
+      "referrer-policy": null,
+      "permissions-policy": null,
+      "x-frame-options": null
+    }
+  },
+  "policy": {
+    "source": "https://nostur.com/privacy.txt",
+    "status": 200,
+    "stated": null,
+    "chars": 644,
+    "text": "(see 2026-11-25-privacy.txt)"
+  }
+}
