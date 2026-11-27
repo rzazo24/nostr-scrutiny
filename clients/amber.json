@@ -1,0 +1,5 @@
+{
+  "name": "Amber",
+  "repo": "greenart7c3/Amber",
+  "note": "Nostr signer for Android (and desktop): keeps the private key in one app and signs for others (NIP-55 on the phone, NIP-46 remotely). Not on Google Play: GitHub releases, F-Droid, Zapstore and Obtainium. No website and no privacy policy found."
+}

@@ -1,0 +1,26 @@
+{
+  "client": "Amber",
+  "collected": "2026-11-27T12:14:11.858Z",
+  "config": {
+    "name": "Amber",
+    "repo": "greenart7c3/Amber",
+    "note": "Nostr signer for Android (and desktop): keeps the private key in one app and signs for others (NIP-55 on the phone, NIP-46 remotely). Not on Google Play: GitHub releases, F-Droid, Zapstore and Obtainium. No website and no privacy policy found."
+  },
+  "errors": {},
+  "github": {
+    "found": true,
+    "source": "https://github.com/greenart7c3/Amber",
+    "license": "MIT",
+    "archived": false,
+    "created": "2023-07-26T19:36:23Z",
+    "lastPush": "2026-11-27T01:47:45Z",
+    "lastCommit": "2026-11-27T01:47:44Z",
+    "latestRelease": {
+      "tag": "v6.6.9",
+      "date": "2026-10-14T12:42:56Z",
+      "url": "https://github.com/greenart7c3/Amber/releases/tag/v6.6.9"
+    },
+    "stars": 366
+  },
+  "nip89": []
+}
